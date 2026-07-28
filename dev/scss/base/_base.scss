@@ -1,0 +1,54 @@
+/* =============
+    Base
+============= */
+@use "../helpers";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    // padding-top: 80px; // match your header's height
+    margin: 0;
+}
+
+ul{
+    li{
+        list-style: none;
+    }
+}
+
+.show-lg{
+    display: none;
+    @include helpers.lg{
+        display: block;
+    }
+}
+
+.hide-lg{
+    @include helpers.lg{
+        display: none;
+    }
+}
+
+.content-padding{
+    padding: 10vh 0;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    @include helpers.md{
+        // padding: 15vh 0;
+    }
+
+    @include helpers.lg{
+        
+    }
+
+    @include helpers.xl{
+        
+    }
+
+    @include helpers.xxl{
+        
+    }
+}

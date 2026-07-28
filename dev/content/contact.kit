@@ -1,0 +1,190 @@
+<section id="contact-overlay">
+    <div id="contact-panel">
+        <section id="contact-close">
+            <button id="close-btn">Close</button>
+        </section>
+
+        <section id="contact-top">
+            <article>
+                <h1 class="section-title">Contact Us</h1>
+                <p>
+                    Our expert team would love to help your company succeed.
+                    Don't wait for the moment — Make it!
+                </p>
+            </article>
+
+            <ul id="contact-methods">
+                <li>
+                    <a href="tel:+16105272600">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-mobile"></i>
+                        </div>
+                        +1 (610) 527-2600
+                    </a>
+                </li>
+
+                <li>
+                    <a href="mailto:info@regulatoryaffairs.com"
+                        ><div class="contact-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        info@regulatoryaffairs.com</a
+                    >
+                </li>
+                <li>
+                    <a href="#"
+                        ><div class="contact-icon">
+                            <i class="fa-solid fa-map-pin"></i>
+                        </div>
+                        Get Directions</a
+                    >
+                </li>
+            </ul>
+        </section>
+
+        <div id="divide-line"></div>
+
+        <section id="contact-bottom">
+            <h2>Request a Consultation</h2>
+            <p>
+                Fill out our contact form and one of our experts will reach out
+                to you shortly.
+            </p>
+        </section>
+
+        <section id="form-container">
+            <!-- <h2>How Can We Help?</h2> -->
+            <form action="https://formspree.io/f/xdavbyjk" method="POST">
+                <div id="name-container">
+                    <label>Name <span>*</span></label>
+                    <div id="name-input-container">
+                        <input
+                            type="text"
+                            id="first-name"
+                            name="first_name"
+                            required
+                            placeholder="First Name"
+                        />
+                        <input
+                            type="text"
+                            id="last-name"
+                            name="last_name"
+                            required
+                            placeholder="Last Name"
+                        />
+                    </div>
+                </div>
+
+                <div id="company-container">
+                    <label for="company">Company</label>
+                    <input
+                        type="text"
+                        id="company"
+                        name="company"
+                        placeholder="Company"
+                    />
+                </div>
+
+                <div id="email-container">
+                    <label>Email <span>*</span></label>
+                    <div id="email-input-container">
+                        <input
+                            type="email"
+                            id="enter-email"
+                            name="email"
+                            placeholder="Enter Email"
+                            required
+                        />
+                        <input
+                            type="email"
+                            id="confirm-email"
+                            name="confirm_email"
+                            placeholder="Confirm Email"
+                            required
+                        />
+                    </div>
+                </div>
+
+                <div id="phone-container">
+                    <label for="phone">Phone <span>*</span></label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        required
+                        placeholder="Phone"
+                    />
+                </div>
+
+                <div id="office-container">
+                    <legend>Office <span>*</span></legend>
+                    <div class="checkbox">
+                        <input
+                            type="checkbox"
+                            id="us"
+                            name="office"
+                            value="US"
+                        />
+                        <label for="us">United States (US)</label>
+                    </div>
+                    <div class="checkbox">
+                        <input
+                            type="checkbox"
+                            id="hk"
+                            name="office"
+                            value="HK"
+                        />
+                        <label for="hk">Hong Kong (HK)</label>
+                    </div>
+                </div>
+
+                <div id="reason-container">
+                    <legend>Reason <span>*</span></legend>
+                    <div class="checkbox">
+                        <input
+                            type="checkbox"
+                            id="rfp"
+                            name="reason"
+                            value="request_for_proposal"
+                        />
+                        <label for="rfp">Request for Proposal</label>
+                    </div>
+                    <div class="checkbox">
+                        <input
+                            type="checkbox"
+                            id="rfc"
+                            name="reason"
+                            value="request_for_consultation"
+                        />
+                        <label for="rfc">Request for Consultation</label>
+                    </div>
+                    <div class="checkbox">
+                        <input
+                            type="checkbox"
+                            id="general"
+                            name="reason"
+                            value="general_inquiry"
+                        />
+                        <label for="general">General Inquiry</label>
+                    </div>
+                </div>
+
+                <div id="comment-container">
+                    <label for="comments"
+                        >Comments & Inquiries <span>*</span></label
+                    >
+                    <textarea
+                        id="comments"
+                        name="comments"
+                        required
+                        placeholder="Comment"
+                    ></textarea>
+                </div>
+
+                <div id="submit-container">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </div>
+</section>

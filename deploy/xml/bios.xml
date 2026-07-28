@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bios>
+
+    <person id="william">
+        <name>William A. Clementi Pharm.D., F.C.P.</name>
+        <title>Founder and Chief Regulatory Officer</title>
+        <p1>Dr. Clementi held an academic appointment in pharmacology at the University of Texas Health Science Center in San Antonio, after completing an NIH Training Program in Clinical Pharmacology. He remained as a faculty member at UTHSCSA, holding positions of Instructor and then Assistant Professor. In addition to teaching in the Colleges of Medicine, Dentistry, and Pharmacy, Dr. Clementi directed the Clinical Pharmacokinetic Consulting Service, providing pharmacokinetic and drug interaction expertise to the Intensive Care Units at the Audie Murphy VA Hospital and Bexar County Hospital. His areas of interest remain cardiovascular pharmacology and applied principles of therapeutics to the clinical setting.</p1>
+        <p2>After completion of his tenure at the University of Texas and receipt of a VA Merit Review Grant in Population Pharmacokinetics of Cardiovascular Drugs, he assumed the position of Associate Director of Clinical Research at Lorex Pharmaceuticals, where he directed and designed pivotal studies in hypertension and angina. His responsibilities also included the oversight of Phase II/III pain management program. As a senior member of the development team, the efforts of the team lead to approvals for betaxolol in hypertension, the combination product of betaxolol with a diuretic, and zolpidem (Ambien). Dr. Clementi was promoted to worldwide responsibilities in market development for Ambien and Kerlidex, the first low dose diuretic-beta blocker combination developed in the United States. He has published over 60 papers on drug metabolism, baroreflex responses in blood pressure reduction, and predictive dosing models using Bayes Formulas and computer-assisted dosing.</p2>
+        <p3>Establishing a specialized consulting company proved an even more exciting challenge as new and novel therapies emerged during the last two decades. Clementi Associates has successfully filed many INDs and a select number of NDAs for specific drugs and combination drug-device products. Clementi Associates expanded and held full electronic submission capabilities until a few years ago when these services matured and could successfully be outsourced. Today Clementi Associates is focused on unique development problems and working with regulators to solve those problems.</p3>
+        <p4>Pharmaceutical research, development, quality, and compliance spanning over forty years in large and small pharma and biotech. Positions ranged from scientist, principal scientist, Directors of R&amp;D, Quality, Quality Control, and interim Vice President of Quality. Experience includes small and large molecules, biologics, devices, drug delivery, radiochemicals, and sterilization with a range of dosage forms (e.g., oral, ophthalmic, parenteral, inhalation, topical). Accomplishments include creation and submission of multiple marketed FDA approved products, development and implementation of new instrumental and software systems measuring drug release kinetics, implementation of multiple departments, quality management systems, over three hundred analytical methods, validations (method, equipment, cleaning, software, process). An Alcon Research Award recipient with numerous presentations and publications.</p4>
+    </person>
+
+    
+    <person id="paul">
+        <name>Paul Heslin,  M.B.A</name>
+        <title>Senior Director Pharmacopeian</title>
+        <p1>Mr. Heslin brings 25+ years of pharmaceutical industry experience to Clementi and Associates.</p1>
+        <p2>Paul led the Pharmaceutical Business Development for verification services at USP and was key point person in working with industry on USP Monograph Development especially for excipients monographs. He has extensive experience with finished dosage, APIs, excipients and controlled substances. He has held various Director level supply chain and B2B sales roles in numerous Brand &amp; Generic pharmaceuticals companies and CDMOs including Bristol Myers Squibb and Johnson &amp; Johnson. He has worked to get many NDAs and ANDAs to market.  Paul was part of a management team that had successful FDA inspection post consent decree and has participated in multiple FDA inspections. He was previously on the Board of Directors for Drug, Chemical &amp; Associated Technologies Association (DCAT).</p2>
+        <p3>Paul has a BS Degree with a Dual Major in Accounting and Economics from the State University of New York College at Fredonia. Paul also holds a Masters of Business Administration from State University of New York at Buffalo. He has earned his Certified in Production and Inventory Management (CPIM), Certified Supply Chain Professional (CSCP), Certified in Integrated Resource Management (CIRM) by APICS. APICS was formerly known as American Production and Inventory Control Society. He has also earned his Certified in Purchasing Management (C.P.M.), and Certified Professional in Supply Management (CPSM) by Institute for Supply Management (ISM).</p3>
+        <p4>Paragraph four...</p4>
+    </person>
+
+    <person id="david">
+        <name>David L. Sloane, Ph.D</name>
+        <title>Senior Director, Bio Manufacturing </title>
+        <p1>Mr. Sloane is a seasoned leader in biotech research and development, specializing in protein engineering, expression, purification, and process development for cGMP manufacturing. With extensive experience managing teams and projects at companies such as Nektar Therapeutics, Catalyst Biosciences, Pfizer/Rinat, Chiron, and Targeted Genetics, Dr. Sloane has driven the discovery and development of multiple clinical candidates and innovative manufacturing solutions. He is recognized for streamlining processes, leading cross-functional teams, and advising clients on manufacturing challenges as a consultant. Dr. Sloane holds a Ph.D. from UC Berkeley, has been published widely, and is an inventor on several patents in the field.</p1>
+        <p2></p2>
+        <p3></p3>
+        <p4></p4>
+    </person>
+
+    <person id="larry">
+        <name>Larry Stevens, M.S.</name>
+        <title>Senior Director GMP Manufacturing</title>
+        <p1>Pharmaceutical research, development, quality, and compliance spanning over forty years in large and small pharma and biotech. Positions ranged from scientist, principal scientist, Directors of R&amp;D, Quality, Quality Control, and interim Vice President of Quality. Experience includes small and large molecules, biologics, devices, drug delivery, radiochemicals, and sterilization with a range of dosage forms (e.g., oral, ophthalmic, parenteral, inhalation, topical). Accomplishments include creation and submission of multiple marketed FDA approved products, development and implementation of new instrumental and software systems measuring drug release kinetics, implementation of multiple departments, quality management systems, over three hundred analytical methods, validations (method, equipment, cleaning, software, process). An Alcon Research Award recipient with numerous presentations and publications.</p1>
+        <p2></p2>
+        <p3></p3>
+        <p4></p4>
+    </person>
+
+    <person id="nemisha">
+        <name>Nemisha Patel</name>
+        <title>Senior Director Quality Assurance</title>
+        <p1>Pharmaceutical research, development, quality, and compliance spanning over forty years in large and small pharma and biotech. Positions ranged from scientist, principal scientist, Directors of R&amp;D, Quality, Quality Control, and interim Vice President of Quality. Experience includes small and large molecules, biologics, devices, drug delivery, radiochemicals, and sterilization with a range of dosage forms (e.g., oral, ophthalmic, parenteral, inhalation, topical). Accomplishments include creation and submission of multiple marketed FDA approved products, development and implementation of new instrumental and software systems measuring drug release kinetics, implementation of multiple departments, quality management systems, over three hundred analytical methods, validations (method, equipment, cleaning, software, process). An Alcon Research Award recipient with numerous presentations and publications.</p1>
+        <p2></p2>
+        <p3></p3>
+        <p4></p4>
+    </person>
+
+    <person id="ethan">
+        <name>Ethan D. Hausman, M.D.</name>
+        <title>Senior Director FDA Regulatory Policy</title>
+        <p1>Dr. Ethan Hausman is a multi-specialty physician (Anatomic Pathology, Clinical Pathology, Transfusion Medicine/Blood Banking, and Pediatrics) who brings more than 20 years of regulatory and policy expertise to Clementi R&amp;D, Associates.  From 2002 to 2025 Dr. Hausman worked at the US Food and Drug Administration (FDA) in positions of increasing independence and responsibility.   While a generalist in the realm of drug and biologic regulation and policy across a variety of product portfolios for common (e.g., immune R&amp;D, non-immune mediated gastrointestinal, non-alcoholic steatohepatosis) disorders, Dr. Hausman has focused subject matter expertise in the clinical and regulatory and clinical aspects of rare/orphan product development, pediatric product development, and pre- and postmarket safety including pharmacovigilance and data-mining.  While at FDA, Dr. Hausman led the development of multiple products from the pre-IND stage through all clinical phases of product development and led interdisciplinary reviews for first-in-kind approvals.  He served on multiple internal committees including the Pediatric Review Committee (PeRC) and represented the Agency to the Secretary’s Advisory Committee on Heritable Disorders in Newborns and Children (SACHDNC) and the Pediatric Advisory Committee (PAC).  He also led the design and revision of multiple work processes and engaged in grant-funded research.  Dr. Hausman’s ability to render complex issues into easy-to-understand language was recognized by his several plain language writing awards.</p1>
+        <p2></p2>
+        <p3></p3>
+        <p4></p4>
+    </person>
+   
+
+</bios>
