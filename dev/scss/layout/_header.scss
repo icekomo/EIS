@@ -3,3 +3,118 @@
 ============= */
 @use "../helpers";
 
+header{
+    position: fixed;
+    top: 16px;
+    left: 3%;
+    width: 95%;
+    z-index: 1000;
+    padding: 16px 30px;
+    box-sizing: border-box;
+    background-color: var(--white);
+    border-radius: 1000px;
+    will-change: padding, background-color;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    overflow: hidden;
+
+
+    @include helpers.xl{
+       max-width: 1440px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    
+    #header-container{
+        width: 100%;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-template-areas: "logo burger"
+                            "nav nav";
+
+         @include helpers.lg{
+           grid-template-columns: 15% auto;
+           grid-template-areas: "logo nav";
+        }
+        
+        #logo{
+            grid-area: logo;
+            display: flex;
+            align-items: center;
+            img{
+                // width: 150px;
+                height: 40px;
+
+                 @include helpers.lg{
+                    width: 100%;
+                 }
+            }
+        }
+
+        #burger-container{
+            grid-area: burger;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            #burgerBtn{
+                height: 22px;
+                width: 30px;
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                cursor: pointer;
+
+                .line{
+                    border-radius: 2px;
+                    height: 3px;
+                    width: 100%;
+                    background-color: var(--black);
+                }
+
+                .line-container{
+                    display: flex;
+                    flex: 1;
+                    height: 100%;
+                    width: 100%;
+                }
+
+                #top{
+                    background-color: var(--black);
+                    align-self: flex-start;
+                }
+
+                #middle{
+                   background-color: var(--black);
+                    align-self: center;
+                }
+
+                #bottom{
+                    background-color: var(--black);
+                    align-self: flex-end;
+                }
+            }
+
+            @include helpers.lg{
+                display: none;
+            }
+        }
+
+        #mainNav{
+            grid-area: nav;
+            position: relative;
+
+            #nav-indicator{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 2px;
+                width: 0;
+                background-color: var(--purple);
+                pointer-events: none;
+                opacity: 0;
+            }
+        }
+    }
+}

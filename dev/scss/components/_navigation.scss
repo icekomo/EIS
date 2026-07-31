@@ -7,3 +7,89 @@ a{
     text-decoration: none;
 }
 
+
+#mainNav{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden; // clips the nav content during animation
+    height: 0;        // collapsed by default on mobile
+
+    @include helpers.lg{
+        overflow: visible;
+        height: auto; // always open on desktop
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 16px 0 0 0; // breathing room at top when open
+
+
+        @include helpers.lg{
+            display: flex;
+            align-items: center;
+            padding: 0;
+            margin-left: auto;
+        }
+
+        @include helpers.xl{
+            // justify-content: flex-end;
+        }
+
+        li{
+            text-align: right;
+            height: 100%;
+
+            @include helpers.lg{
+                padding-right: 16px;
+            }
+
+            a:link, a:visited{
+                font-weight: 550;
+                display: inline-block;
+                padding: 24px 0;
+                color: var(--blue);
+                transition: 0.25s;
+                height: 100%;
+                text-transform: uppercase;
+
+                @include helpers.lg{
+                      padding: 24px;
+        
+                    font-size: helpers.rem-calc(16);
+                }
+
+                &:hover, &:active{
+
+                    @include helpers.lg{
+                        background-color: var(--gray-light);
+                        color: var(--white);
+                        border: 8px;
+                        border-radius: 8px;
+                    }
+                }
+            }
+
+            #contact-btn{
+                background-color: var(--black);
+                color: var(--white);
+                border: none;
+                border-radius: 24px;
+                padding: 24px;
+                font-weight: 600;
+                cursor: pointer;
+                transition: 0.25s;
+                // margin-right: 24px;
+
+                &:hover{
+                    background-color: var(--green);
+                    color: var(--black);
+                }
+            }
+        }
+    }
+}

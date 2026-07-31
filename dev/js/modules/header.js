@@ -1,6 +1,7 @@
 import { gsap } from "../gsap-setup.js";
 
 export function initHeader() {
+    const headerEl = document.querySelector("header");
     const burgerBtn = document.querySelector("#burgerBtn");
     const mainNav = document.querySelector("#mainNav");
     const navItems = mainNav.querySelectorAll("li");
@@ -164,6 +165,12 @@ export function initHeader() {
             ease: "power3.inOut",
         });
 
+        gsap.to(headerEl, {
+            borderRadius: 24,
+            duration: 0.35,
+            ease: "power3.inOut",
+        });
+
         gsap.to(navItems, {
             x: 0,
             opacity: 1,
@@ -192,15 +199,23 @@ export function initHeader() {
             duration: 0.4,
             ease: "power3.inOut",
         });
+
+        gsap.to(headerEl, {
+            borderRadius: 1000,
+            duration: 0.4,
+            ease: "power3.inOut",
+        });
     }
 
     function setMobileState() {
         if (!desktopMQ.matches) {
             gsap.set(mainNav, { height: 0 });
+            gsap.set(headerEl, { borderRadius: 1000 });
             gsap.set(navItems, { x: 40, opacity: 0 });
             hideIndicator();
         } else {
             gsap.set(mainNav, { clearProps: "all" });
+            gsap.set(headerEl, { clearProps: "all" });
             gsap.set(navItems, { clearProps: "all" });
             burgerTl.pause(0);
             // Re-draw indicator for whichever link is active

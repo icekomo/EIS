@@ -1,3 +1,5 @@
+import { initBurger } from "./modules/burger.js";
+import { initHeader } from "./modules/header.js";
 // import { initCardflip } from "./modules/card-flip.js";
 // import { initContact } from "./modules/contact.js";
 // import { initHeader } from "./modules/header.js";
@@ -8,5 +10,6 @@
 // import { initHomeTitles } from "./modules/home-titles.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-    //initCardflip();
+    initBurger();
+    initHeader();
 });
