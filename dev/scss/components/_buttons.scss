@@ -6,3 +6,12 @@ button{
     transition: 0.25s;
 }
 
+.button{
+    border-radius: 100px;
+    padding: 20px 30px;
+    font-weight: 700;
+
+    &:hover, &:active{
+        transition: 0.25s;
+    }
+}

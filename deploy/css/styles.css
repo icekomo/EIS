@@ -378,6 +378,15 @@ button {
   transition: 0.25s;
 }
 
+.button {
+  border-radius: 100px;
+  padding: 20px 30px;
+  font-weight: 700;
+}
+.button:hover, .button:active {
+  transition: 0.25s;
+}
+
 /* =============
     Forms
 ============= */
@@ -422,6 +431,7 @@ textarea {
 ============= */
 a {
   text-decoration: none;
+  display: inline-block;
 }
 
 #mainNav {
@@ -485,18 +495,17 @@ a {
   }
 }
 #mainNav ul li #contact-btn {
-  background-color: var(--black);
+  background-color: var(--green);
   color: var(--white);
   border: none;
-  border-radius: 24px;
+  border-radius: 48px;
   padding: 24px;
   font-weight: 600;
   cursor: pointer;
   transition: 0.25s;
 }
 #mainNav ul li #contact-btn:hover {
-  background-color: var(--green);
-  color: var(--black);
+  background-color: var(--dark-green);
 }
 
 /* =============
@@ -511,7 +520,7 @@ header {
   padding: 16px 30px;
   box-sizing: border-box;
   background-color: var(--white);
-  border-radius: 1000px;
+  border-radius: 56px;
   will-change: padding, background-color;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
   overflow: hidden;
@@ -618,4 +627,105 @@ header #header-container #mainNav #nav-indicator {
   background-image: url("../img/index/hero/hero.jpg");
   background-size: cover;
   height: 100vh;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#index-hero #hero-space {
+  height: 100px;
+}
+@media (min-width: 768px) {
+  #index-hero #hero-space {
+    height: 0px;
+  }
+}
+#index-hero #hero-content {
+  color: var(--white);
+  width: 90vw;
+}
+@media (min-width: 768px) {
+  #index-hero #hero-content {
+    width: 60vw;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  #index-hero #hero-content {
+    width: 800px;
+  }
+}
+#index-hero #hero-content h1 {
+  font-size: 3.75rem;
+  font-weight: 900;
+}
+@media (min-width: 768px) {
+  #index-hero #hero-content h1 {
+    font-size: 5.625rem;
+  }
+}
+@media (min-width: 992px) {
+  #index-hero #hero-content h1 {
+    font-size: 6.25rem;
+  }
+}
+@media (min-width: 1200px) {
+  #index-hero #hero-content h1 {
+    font-size: 6.875rem;
+  }
+}
+#index-hero #hero-content p {
+  margin: 54px 0 36px;
+  font-size: 1.375rem;
+}
+@media (min-width: 992px) {
+  #index-hero #hero-content p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  #index-hero #hero-content p {
+    width: 70%;
+    font-size: 1.625rem;
+  }
+}
+#index-hero #hero-content #hero-buttons {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  #index-hero #hero-content #hero-buttons {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 992px) {
+  #index-hero #hero-content #hero-buttons {
+    width: 70%;
+  }
+}
+@media (min-width: 1200px) {
+  #index-hero #hero-content #hero-buttons {
+    width: 60%;
+  }
+}
+#index-hero #hero-content #hero-buttons #contact-btn {
+  background: var(--green);
+  color: var(--white);
+}
+#index-hero #hero-content #hero-buttons #contact-btn:hover {
+  background-color: var(--dark-green);
+}
+#index-hero #hero-content #hero-buttons #services-btn {
+  background: var(--white);
+  color: var(--black);
+  margin-left: auto;
+}
+#index-hero #hero-content #hero-buttons #services-btn:hover {
+  color: var(--white);
+  background-color: var(--black);
 }

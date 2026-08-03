@@ -11,4 +11,105 @@
     background-image: url("../img/index/hero/hero.jpg");
     background-size: cover;
     height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    // padding: 0 24px;
+
+    #hero-space{
+        height: 100px;
+
+        @include helpers.md{
+            height: 0px;
+        }
+    }
+
+    #hero-content{
+        color: var(--white);
+        width: 90vw;
+
+        @include helpers.md{
+            width: 60vw;
+            text-align: center;
+        }
+
+        @include helpers.xl{
+            width: 800px;
+        }
+
+        h1{
+            font-size: helpers.rem-calc(60);
+            font-weight: 900;
+
+            @include helpers.md{
+                font-size: helpers.rem-calc(90);
+            }
+
+            @include helpers.lg{
+                font-size: helpers.rem-calc(100);
+            }
+
+            @include helpers.xl{
+               font-size: helpers.rem-calc(110);
+            }
+        }
+
+        p{
+            margin: 54px 0 36px;
+            font-size: helpers.rem-calc(22);
+
+            @include helpers.lg{
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: helpers.rem-calc(24);
+            }
+
+            @include helpers.xl{
+                width: 70%;
+                font-size: helpers.rem-calc(26);
+            }
+        }
+
+
+        #hero-buttons{
+            display: flex;
+            justify-content: center;
+
+            @include helpers.md{
+                width: 80%;
+                // border: 1px solid red;
+                margin: 0 auto;
+            }
+
+            @include helpers.lg{
+                width: 70%;
+            }
+
+            @include helpers.xl{
+                width: 60%;
+            }
+
+            #contact-btn{
+                background: var(--green);
+                color: var(--white);
+                &:hover{
+                    background-color: var(--dark-green);
+                }
+            }
+
+            #services-btn{
+                background: var(--white);
+                color: var(--black);
+                margin-left: auto;
+
+                &:hover{
+                    color: var(--white);
+                    background-color: var(--black);
+                }
+            }
+        }
+    }
 }
