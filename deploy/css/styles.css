@@ -317,6 +317,7 @@ template {
   --light-green: #F0FAEB;
   --grey: #D1D1D1;
   --light-grey: #F4F4F5;
+  --dark-grey: #747476;
   --charcoal: #18181B;
 }
 
@@ -642,6 +643,115 @@ header #header-container #mainNav #nav-indicator {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: var(--charcoal);
+  color: var(--dark-grey);
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". footer .";
+}
+footer #footer-content {
+  grid-area: footer;
+}
+@media (min-width: 768px) {
+  footer #footer-content #footer-top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  footer #footer-content #footer-top {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+footer #footer-content #footer-top #logo p {
+  margin: 16px 0;
+}
+footer #footer-content #footer-top #logo ul {
+  display: flex;
+}
+footer #footer-content #footer-top #logo ul li {
+  margin-right: 24px;
+}
+footer #footer-content #footer-top #logo ul li a:link,
+footer #footer-content #footer-top #logo ul li a:visited {
+  font-size: 1.25rem;
+  color: var(--white);
+}
+footer #footer-content #footer-top #logo ul li a:link:hover,
+footer #footer-content #footer-top #logo ul li a:link a:active,
+footer #footer-content #footer-top #logo ul li a:visited:hover,
+footer #footer-content #footer-top #logo ul li a:visited a:active {
+  color: var(--green);
+}
+footer #footer-content #footer-top .footer-list {
+  margin-top: 24px;
+}
+footer #footer-content #footer-top .footer-list .footer-title {
+  color: var(--green);
+}
+footer #footer-content #footer-top .footer-list li {
+  margin-bottom: 8px;
+}
+footer #footer-content #footer-top .footer-list li a:link,
+footer #footer-content #footer-top .footer-list li a:visited {
+  font-size: 1rem;
+  color: var(--dark-grey);
+}
+footer #footer-content #footer-top .footer-list li a:link:hover,
+footer #footer-content #footer-top .footer-list li a:link a:active,
+footer #footer-content #footer-top .footer-list li a:visited:hover,
+footer #footer-content #footer-top .footer-list li a:visited a:active {
+  color: var(--green);
+}
+footer #footer-content .divide {
+  height: 1px;
+  background-color: var(--dark-grey);
+  width: 100%;
+  margin: 24px 0;
+}
+@media (min-width: 768px) {
+  footer #footer-content .divide {
+    margin: 48px 0;
+  }
+}
+@media (min-width: 768px) {
+  footer #footer-content #bottom {
+    display: flex;
+  }
+}
+footer #footer-content #bottom p {
+  margin-bottom: 24px;
+}
+footer #footer-content #bottom div {
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  footer #footer-content #bottom div {
+    margin-left: auto;
+    justify-content: flex-end;
+  }
+}
+footer #footer-content #bottom div a:link,
+footer #footer-content #bottom div a:visited {
+  font-size: 1rem;
+  color: var(--dark-grey);
+  display: inline-block;
+}
+footer #footer-content #bottom div a:link:hover,
+footer #footer-content #bottom div a:link a:active,
+footer #footer-content #bottom div a:visited:hover,
+footer #footer-content #bottom div a:visited a:active {
+  color: var(--green);
+}
+@media (min-width: 768px) {
+  footer #footer-content #bottom div a:link,
+  footer #footer-content #bottom div a:visited {
+    margin-left: 24px;
+  }
+}
+
 /* =============
     Index - Hero
 ============= */

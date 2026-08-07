@@ -6,3 +6,121 @@
 // =============
 //   Footer
 // =============
+footer {
+    background-color: var(--charcoal);
+    color: var(--dark-grey);
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". footer .";
+
+    #footer-content {
+        grid-area: footer;
+
+        #footer-top {
+
+            @include helpers.md{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr)
+            }
+
+            @include helpers.lg{
+                grid-template-columns: repeat(3, 1fr)
+            }
+
+            #logo {
+                p {
+                    margin: 16px 0;
+                }
+
+                ul {
+                    display: flex;
+
+                    li {
+                        margin-right: 24px;
+
+                        a:link,
+                        a:visited {
+                            font-size: helpers.rem-calc(20);
+                            color: var(--white);
+
+                            &:hover,
+                            a:active {
+                                color: var(--green);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footer-list {
+                margin-top: 24px;
+
+                .footer-title {
+                    color: var(--green);
+                }
+
+                li {
+                    margin-bottom: 8px;
+
+                    a:link,
+                    a:visited {
+                        font-size: helpers.rem-calc(16);
+                        color: var(--dark-grey);
+
+                        &:hover,
+                        a:active {
+                            color: var(--green);
+                        }
+                    }
+                }
+            }
+        }
+
+        .divide {
+            height: 1px;
+            background-color: var(--dark-grey);
+            width: 100%;
+            margin: 24px 0;
+
+            @include helpers.md {
+                margin: 48px 0;
+            }
+        }
+
+        #bottom {
+            @include helpers.md {
+                display: flex;
+            }
+
+            p {
+                margin-bottom: 24px;
+            }
+
+            div {
+                display: flex;
+                justify-content: space-between;
+
+                @include helpers.md {
+                    margin-left: auto;
+                    justify-content: flex-end;
+                }
+
+                a:link,
+                a:visited {
+                    font-size: helpers.rem-calc(16);
+                    color: var(--dark-grey);
+                    display: inline-block;
+
+                    &:hover,
+                    a:active {
+                        color: var(--green);
+                    }
+
+                    @include helpers.md {
+                        margin-left: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
