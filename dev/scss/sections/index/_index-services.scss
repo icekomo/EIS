@@ -1,0 +1,50 @@
+/* =============
+    Index - Services
+============= */
+@use "../../helpers";
+
+#index-services{
+    background-color: var(--light-grey);
+
+    #index-services-container{
+
+        #title-block{
+            h3{
+                color: var(--dark-green);
+                font-size: helpers.rem-calc(16);
+                font-weight: 600;
+            }
+
+            h2{
+                font-size: helpers.rem-calc(40);
+                font-weight: 950;
+            }
+        }
+
+        #services-cards{
+            display: grid;
+            gap: 24px;
+
+
+            .services-card{
+                background-color: var(--white);
+                padding: 8px;
+                border-radius: 32px;
+
+                .hero-img{
+                    height: 200px;
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 24px;
+                }
+            }
+
+            #covers{
+                .hero-img{
+                    background-image: url("../img/index/services/cover.jpg");
+                }
+            }
+        }
+
+    }
+}

@@ -314,6 +314,8 @@ template {
   --white: #ffffff;
   --green: #72EF22;
   --dark-green: #59B21F;
+  --grey: #D1D1D1;
+  --light-grey: #F4F4F5;
 }
 
 /* ---------------- Font Sizing ---------------- */
@@ -728,4 +730,66 @@ header #header-container #mainNav #nav-indicator {
 #index-hero #hero-content #hero-buttons #services-btn:hover {
   color: var(--white);
   background-color: var(--black);
+}
+
+/* =============
+    Index - Stats
+============= */
+@media (min-width: 768px) {
+  #stats #stats-container {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
+@media (min-width: 992px) {
+  #stats #stats-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+#stats #stats-container .stat-card {
+  text-align: center;
+  padding: 50px 0;
+}
+#stats #stats-container .stat-card h2 {
+  color: var(--grey);
+  font-weight: 900;
+  font-size: 4.5rem;
+}
+#stats #stats-container .stat-card p {
+  font-weight: 800;
+  color: var(--grey);
+}
+
+/* =============
+    Index - Services
+============= */
+#index-services {
+  background-color: var(--light-grey);
+}
+#index-services #index-services-container #title-block h3 {
+  color: var(--dark-green);
+  font-size: 1rem;
+  font-weight: 600;
+}
+#index-services #index-services-container #title-block h2 {
+  font-size: 2.5rem;
+  font-weight: 950;
+}
+#index-services #index-services-container #services-cards {
+  display: grid;
+  gap: 24px;
+}
+#index-services #index-services-container #services-cards .services-card {
+  background-color: var(--white);
+  padding: 8px;
+  border-radius: 32px;
+}
+#index-services #index-services-container #services-cards .services-card .hero-img {
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 24px;
+}
+#index-services #index-services-container #services-cards #covers .hero-img {
+  background-image: url("../img/index/services/cover.jpg");
 }

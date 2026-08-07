@@ -122,6 +122,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/index\/services\/cover.jpg" : {
+      "ft" : 16384,
+      "iS" : 248314,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/index\/services\/cover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -177,7 +190,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/+old\/gear-container.html",
       "oF" : 0
     },
@@ -257,7 +270,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/+old\/sub-modular.html",
       "oF" : 0
     },
@@ -307,6 +320,22 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/index\/index-hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/index\/index-services.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/index\/index-services.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/index\/index-stats.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/index\/index-stats.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -690,6 +719,32 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/index\/_index-hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/dev\/scss\/sections\/index\/_index-services.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/index\/_index-services.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/dev\/scss\/sections\/index\/_index-stats.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/index\/_index-stats.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0

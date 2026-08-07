@@ -1,0 +1,35 @@
+/* =============
+    Index - Stats
+============= */
+@use "../../helpers";
+
+
+#stats{
+
+    #stats-container{
+
+        @include helpers.md{
+            display: grid;
+            grid-template-columns: 50% auto;
+        }
+
+        @include helpers.lg{
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .stat-card{
+            text-align: center;
+            padding: 50px 0;
+
+            h2{
+                color: var(--grey);
+                font-weight: 900;
+                font-size: helpers.rem-calc(72);
+            }
+            p{
+                font-weight: 800;
+                color: var(--grey);
+            }
+        }
+    }
+}
