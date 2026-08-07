@@ -8,8 +8,6 @@
 
 
     @include helpers.xl{
-        // width: 1200px;
-        // margin: 0 auto;
         display: grid;
         grid-template-columns: auto 1200px auto;
         grid-template-areas: ". index-services .";
@@ -19,28 +17,6 @@
 
         @include helpers.xl{
             grid-area: index-services;
-        }
-
-        #title-block{
-            margin-bottom: 36px;
-
-            h3{
-                color: var(--dark-green);
-                font-size: helpers.rem-calc(16);
-                font-weight: 600;
-                margin-bottom: 16px;
-            }
-
-            h2{
-                font-size: helpers.rem-calc(40);
-                font-weight: 950;
-                // margin-bottom: 24px;
-            }
-
-            #title-top{
-                margin-bottom: 0px;
-                // border: 1px solid red;
-            }
         }
 
         #services-cards{

@@ -1,0 +1,84 @@
+/* =============
+    Index - Partner
+============= */
+@use "../../helpers";
+
+#index-partner{
+    
+    @include helpers.xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". index-partner .";
+    }
+
+    #partner-container{
+
+        @include helpers.md{
+            display: grid;
+            grid-template-columns: 50% auto;
+            gap: 24px;
+        }
+
+        @include helpers.xl{
+            grid-area: index-partner;
+        }
+
+        #partner-content-right{
+            display: none;
+            background-image: url("../img/index/partner/hero.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            border-radius: 32px;
+
+            @include helpers.md{
+                display: block;
+            }
+        }
+
+         #partner-content-left{
+            #partner-info{
+                margin-bottom: 32px;
+            }
+
+            ul{
+                @include helpers.lg{
+                    display: grid;
+                    grid-template-columns: 50% auto;
+                    gap: 24px;
+                }
+
+
+
+                .partner-list-item{
+                    display: flex;
+                    gap:16px;
+                    align-items: center;
+                    border-bottom: 1px solid var(--grey);
+                    padding: 20px 0;
+
+                    @include helpers.lg{
+                        border: none;
+                    }
+
+                    h4{
+                        margin-bottom: 8px;
+                    }
+
+                    .icon-container{
+                        display: inline-block;
+                        .icon{
+                            padding: 16px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 100px;
+                            background-color: var(--light-green);
+                            color: var(--green);
+                        }
+                    }
+                }
+            }
+         }
+    }
+}

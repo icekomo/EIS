@@ -33,7 +33,7 @@ header{
                             "nav nav";
 
          @include helpers.lg{
-           grid-template-columns: 15% auto;
+           grid-template-columns: 10% auto;
            grid-template-areas: "logo nav";
         }
         

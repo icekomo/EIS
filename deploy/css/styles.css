@@ -314,6 +314,7 @@ template {
   --white: #ffffff;
   --green: #72EF22;
   --dark-green: #59B21F;
+  --light-green: #F0FAEB;
   --grey: #D1D1D1;
   --light-grey: #F4F4F5;
 }
@@ -370,6 +371,20 @@ h1, h2, h3, h4, h5, p {
 ul {
   margin: 0;
   padding: 0;
+}
+
+#title-block {
+  margin-bottom: 36px;
+}
+#title-block h3 {
+  color: var(--dark-green);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+#title-block h2 {
+  font-size: 2.5rem;
+  font-weight: 950;
 }
 
 /* =============
@@ -446,9 +461,6 @@ a {
   #mainNav {
     overflow: visible;
     height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
   }
 }
 #mainNav ul {
@@ -509,6 +521,11 @@ a {
 #mainNav ul li #contact-btn:hover {
   background-color: var(--dark-green);
 }
+@media (min-width: 768px) {
+  #mainNav ul #contact {
+    margin-left: auto;
+  }
+}
 
 /* =============
     Header
@@ -543,7 +560,7 @@ header #header-container {
 }
 @media (min-width: 992px) {
   header #header-container {
-    grid-template-columns: 15% auto;
+    grid-template-columns: 10% auto;
     grid-template-areas: "logo nav";
   }
 }
@@ -778,22 +795,6 @@ header #header-container #mainNav #nav-indicator {
     grid-area: index-services;
   }
 }
-#index-services #index-services-container #title-block {
-  margin-bottom: 36px;
-}
-#index-services #index-services-container #title-block h3 {
-  color: var(--dark-green);
-  font-size: 1rem;
-  font-weight: 600;
-  margin-bottom: 16px;
-}
-#index-services #index-services-container #title-block h2 {
-  font-size: 2.5rem;
-  font-weight: 950;
-}
-#index-services #index-services-container #title-block #title-top {
-  margin-bottom: 0px;
-}
 #index-services #index-services-container #services-cards {
   display: grid;
   gap: 24px;
@@ -853,4 +854,151 @@ header #header-container #mainNav #nav-indicator {
 }
 #index-services #index-services-container #services-cards #coatings .hero-img {
   background-image: url("../img/index/services/coating.jpg");
+}
+
+/* =============
+    Index - Partner
+============= */
+@media (min-width: 1200px) {
+  #index-partner {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". index-partner .";
+  }
+}
+@media (min-width: 768px) {
+  #index-partner #partner-container {
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  #index-partner #partner-container {
+    grid-area: index-partner;
+  }
+}
+#index-partner #partner-container #partner-content-right {
+  display: none;
+  background-image: url("../img/index/partner/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  border-radius: 32px;
+}
+@media (min-width: 768px) {
+  #index-partner #partner-container #partner-content-right {
+    display: block;
+  }
+}
+#index-partner #partner-container #partner-content-left #partner-info {
+  margin-bottom: 32px;
+}
+@media (min-width: 992px) {
+  #index-partner #partner-container #partner-content-left ul {
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 24px;
+  }
+}
+#index-partner #partner-container #partner-content-left ul .partner-list-item {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  border-bottom: 1px solid var(--grey);
+  padding: 20px 0;
+}
+@media (min-width: 992px) {
+  #index-partner #partner-container #partner-content-left ul .partner-list-item {
+    border: none;
+  }
+}
+#index-partner #partner-container #partner-content-left ul .partner-list-item h4 {
+  margin-bottom: 8px;
+}
+#index-partner #partner-container #partner-content-left ul .partner-list-item .icon-container {
+  display: inline-block;
+}
+#index-partner #partner-container #partner-content-left ul .partner-list-item .icon-container .icon {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-color: var(--light-green);
+  color: var(--green);
+}
+
+/* =============
+    Index - Projects
+============= */
+#index-projects {
+  background-color: var(--light-grey);
+}
+@media (min-width: 1200px) {
+  #index-projects {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". index-projects .";
+  }
+}
+@media (min-width: 1200px) {
+  #index-projects #index-projects-container {
+    grid-area: index-projects;
+  }
+}
+#index-projects #index-projects-container #projects {
+  display: grid;
+  gap: 32px;
+}
+@media (min-width: 768px) {
+  #index-projects #index-projects-container #projects {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "p1 p1 p2 p2" ".. p3 p3 ..";
+  }
+}
+@media (min-width: 992px) {
+  #index-projects #index-projects-container #projects {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "p1 p2 p3";
+  }
+}
+#index-projects #index-projects-container #projects li .hero {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 32px;
+  margin-bottom: 12px;
+}
+@media (min-width: 768px) {
+  #index-projects #index-projects-container #projects #project-1 {
+    grid-area: p1;
+  }
+}
+#index-projects #index-projects-container #projects #project-1 .hero {
+  background-image: url("../img/index/projects/project-1.jpg");
+}
+@media (min-width: 768px) {
+  #index-projects #index-projects-container #projects #project-2 {
+    grid-area: p2;
+  }
+}
+#index-projects #index-projects-container #projects #project-2 .hero {
+  background-image: url("../img/index/projects/project-2.jpg");
+}
+@media (min-width: 768px) {
+  #index-projects #index-projects-container #projects #project-3 {
+    grid-area: p3;
+  }
+}
+#index-projects #index-projects-container #projects #project-3 .hero {
+  background-image: url("../img/index/projects/project-3.jpg");
+}
+#index-projects #index-projects-container #projects #project-content h3 {
+  color: var(--dark-green);
+  font-weight: 550;
+  font-size: 1.125rem;
+}
+#index-projects #index-projects-container #projects #project-content h2 {
+  font-size: 1.375rem;
 }

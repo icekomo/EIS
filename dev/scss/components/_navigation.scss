@@ -18,9 +18,12 @@ a{
     @include helpers.lg{
         overflow: visible;
         height: auto; // always open on desktop
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
+        // display: flex;
+        // align-items: center;
+        // justify-content: flex-start;
+        // width: 100%;
+        // justify-content: flex-end;
+        // border: 1px solid red;
     }
 
 
@@ -84,12 +87,16 @@ a{
                 font-weight: 600;
                 cursor: pointer;
                 transition: 0.25s;
-                // margin-right: 24px;
-
                 &:hover{
                     background-color: var(--dark-green);
                     // color: var(--black);
                 }
+            }
+        }
+
+        #contact{
+            @include helpers.md{
+                margin-left: auto;
             }
         }
     }

@@ -1,0 +1,91 @@
+/* =============
+    Index - Projects
+============= */
+@use "../../helpers";
+
+#index-projects{
+    background-color: var(--light-grey);
+
+    @include helpers.xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". index-projects .";
+    }
+
+    #index-projects-container{
+
+        @include helpers.xl{
+            grid-area: index-projects;
+        }
+
+        #projects{
+            display: grid;
+            gap: 32px;
+
+            @include helpers.md{
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-areas: 
+                "p1 p1 p2 p2"
+                ".. p3 p3 ..";
+            }
+
+            @include helpers.lg{
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-areas: 
+                "p1 p2 p3";
+            }
+
+            li{
+
+                .hero{
+                    height: 400px;
+                    background-size: cover;
+                    background-position: center;
+                    border-radius: 32px;
+                    margin-bottom: 12px;
+                    
+                }
+            }
+
+            #project-1{
+                    @include helpers.md{
+                        grid-area: p1;
+                    }
+                    .hero{
+                         background-image: url("../img/index/projects/project-1.jpg");
+                    }   
+                }
+
+                #project-2{
+                    @include helpers.md{
+                        grid-area: p2;
+                    }
+                    .hero{
+                         background-image: url("../img/index/projects/project-2.jpg");
+                    } 
+                }
+
+                #project-3{
+                    @include helpers.md{
+                        grid-area: p3;
+                    }
+                    .hero{
+                         background-image: url("../img/index/projects/project-3.jpg");
+                    } 
+                }
+
+                #project-content{
+                    h3{
+                        color: var(--dark-green);
+                        font-weight: 550;
+                        font-size: helpers.rem-calc(18);
+                    }
+
+                    h2{
+                        font-size: helpers.rem-calc(22);
+                    }
+                }
+        }
+
+    }
+}
