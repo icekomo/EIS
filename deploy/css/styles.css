@@ -766,30 +766,91 @@ header #header-container #mainNav #nav-indicator {
 #index-services {
   background-color: var(--light-grey);
 }
+@media (min-width: 1200px) {
+  #index-services {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". index-services .";
+  }
+}
+@media (min-width: 1200px) {
+  #index-services #index-services-container {
+    grid-area: index-services;
+  }
+}
+#index-services #index-services-container #title-block {
+  margin-bottom: 36px;
+}
 #index-services #index-services-container #title-block h3 {
   color: var(--dark-green);
   font-size: 1rem;
   font-weight: 600;
+  margin-bottom: 16px;
 }
 #index-services #index-services-container #title-block h2 {
   font-size: 2.5rem;
   font-weight: 950;
 }
+#index-services #index-services-container #title-block #title-top {
+  margin-bottom: 0px;
+}
 #index-services #index-services-container #services-cards {
   display: grid;
   gap: 24px;
+}
+@media (min-width: 768px) {
+  #index-services #index-services-container #services-cards {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
 }
 #index-services #index-services-container #services-cards .services-card {
   background-color: var(--white);
   padding: 8px;
   border-radius: 32px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 #index-services #index-services-container #services-cards .services-card .hero-img {
   height: 200px;
   background-position: center;
   background-size: cover;
-  border-radius: 24px;
+  border-radius: 20px;
+}
+#index-services #index-services-container #services-cards .services-card .card-content {
+  padding: 24px;
+  display: grid;
+  gap: 16px;
+  flex: 1;
+  min-height: 0;
+  box-sizing: border-box;
+}
+#index-services #index-services-container #services-cards .services-card .card-content .icon {
+  background-color: var(--light-grey);
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  color: var(--dark-green);
+  border-radius: 12px;
+}
+#index-services #index-services-container #services-cards .services-card .card-content a:link, #index-services #index-services-container #services-cards .services-card .card-content a:visited {
+  color: var(--dark-green);
+  display: inline-block;
+  margin-top: auto;
+}
+#index-services #index-services-container #services-cards .services-card .card-content a:link:hover, #index-services #index-services-container #services-cards .services-card .card-content a:link:active, #index-services #index-services-container #services-cards .services-card .card-content a:visited:hover, #index-services #index-services-container #services-cards .services-card .card-content a:visited:active {
+  color: var(--black);
+}
+#index-services #index-services-container #services-cards .services-card .card-content a:link i, #index-services #index-services-container #services-cards .services-card .card-content a:visited i {
+  margin-left: 4px;
+  font-size: 0.875rem;
 }
 #index-services #index-services-container #services-cards #covers .hero-img {
   background-image: url("../img/index/services/cover.jpg");
+}
+#index-services #index-services-container #services-cards #coatings .hero-img {
+  background-image: url("../img/index/services/coating.jpg");
 }
