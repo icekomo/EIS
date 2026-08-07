@@ -174,6 +174,29 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/index\/quotes\/avatar.png" : {
+      "ft" : 32768,
+      "iS" : 26673,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/index\/quotes\/avatar.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/index\/quotes\/quote.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/index\/quotes\/quote.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/index\/services\/coating.jpg" : {
       "ft" : 16384,
       "iS" : 177686,
@@ -409,6 +432,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/index\/index-projects.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/index\/index-quotes.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/index\/index-quotes.html",
       "oF" : 0
     },
     "\/dev\/content\/index\/index-services.kit" : {
@@ -847,6 +878,19 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/index\/_index-projects.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/dev\/scss\/sections\/index\/_index-quotes.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/index\/_index-quotes.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0

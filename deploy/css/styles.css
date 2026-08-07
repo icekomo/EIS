@@ -1054,3 +1054,65 @@ header #header-container #mainNav #nav-indicator {
 #index-process #process-container ul li p {
   font-size: 0.875rem;
 }
+
+/* =============
+    Index - Quotes
+============= */
+#index-quotes {
+  background-color: var(--charcoal);
+}
+@media (min-width: 992px) {
+  #index-quotes {
+    display: grid;
+    grid-template-columns: auto 992px auto;
+    grid-template-areas: ". index-quotes .";
+  }
+}
+#index-quotes #quote-container {
+  text-align: center;
+  color: var(--white);
+}
+@media (min-width: 992px) {
+  #index-quotes #quote-container {
+    grid-area: index-quotes;
+  }
+}
+#index-quotes #quote-container p {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+#index-quotes #quote-container .avatar-title {
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  text-align: left;
+}
+#index-quotes #quote-container .avatar-title .avatar {
+  width: 50px;
+}
+@media (min-width: 768px) {
+  #index-quotes #quote-container .avatar-title .avatar {
+    width: 75px;
+  }
+}
+@media (min-width: 992px) {
+  #index-quotes #quote-container .avatar-title .avatar {
+    width: 50px;
+  }
+}
+#index-quotes #quote-container .avatar-title .avatar img {
+  width: 100%;
+}
+#index-quotes #quote-container .avatar-title h3 {
+  font-weight: 50;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+#index-quotes #quote-container .avatar-title h4 {
+  color: var(--light-grey);
+  font-weight: 400;
+  font-size: 0.75rem;
+}
