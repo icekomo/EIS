@@ -1,0 +1,57 @@
+/* =============
+    Index - Start
+============= */
+@use "../../helpers";
+
+#index-start{
+    background-color: var(--dark-green);
+    color: var(--white);
+
+    @include helpers.lg{
+        display: grid;
+        grid-template-columns: auto 992px auto;
+        grid-template-areas: ". index-start .";
+    }
+
+    #start-container{
+        text-align: center;
+
+        @include helpers.lg{
+            grid-area: index-start;
+        }
+
+        h2{
+            font-size: helpers.rem-calc(50);
+            font-weight: 900;
+
+            @include helpers.md{
+                font-size: helpers.rem-calc(70);
+            }
+
+            @include helpers.lg{
+                font-size: helpers.rem-calc(90);
+            }
+
+            @include helpers.xl{
+                font-size: helpers.rem-calc(110);
+            }
+        }
+
+        p{
+            margin: 24px 0;
+        }
+
+        a:link, a:visited{
+            background-color: var(--white);
+            color: var(--black);
+            font-weight: 500;
+            padding: 16px;
+            border-radius: 100px;
+
+            &:hover, &:active{
+                background-color: var(--charcoal);
+                color: var(--white)
+            }
+        }
+    }
+}

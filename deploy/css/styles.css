@@ -451,6 +451,7 @@ textarea {
 a {
   text-decoration: none;
   display: inline-block;
+  transition: 0.25s;
 }
 
 #mainNav {
@@ -1115,4 +1116,60 @@ header #header-container #mainNav #nav-indicator {
   color: var(--light-grey);
   font-weight: 400;
   font-size: 0.75rem;
+}
+
+/* =============
+    Index - Start
+============= */
+#index-start {
+  background-color: var(--dark-green);
+  color: var(--white);
+}
+@media (min-width: 992px) {
+  #index-start {
+    display: grid;
+    grid-template-columns: auto 992px auto;
+    grid-template-areas: ". index-start .";
+  }
+}
+#index-start #start-container {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  #index-start #start-container {
+    grid-area: index-start;
+  }
+}
+#index-start #start-container h2 {
+  font-size: 3.125rem;
+  font-weight: 900;
+}
+@media (min-width: 768px) {
+  #index-start #start-container h2 {
+    font-size: 4.375rem;
+  }
+}
+@media (min-width: 992px) {
+  #index-start #start-container h2 {
+    font-size: 5.625rem;
+  }
+}
+@media (min-width: 1200px) {
+  #index-start #start-container h2 {
+    font-size: 6.875rem;
+  }
+}
+#index-start #start-container p {
+  margin: 24px 0;
+}
+#index-start #start-container a:link, #index-start #start-container a:visited {
+  background-color: var(--white);
+  color: var(--black);
+  font-weight: 500;
+  padding: 16px;
+  border-radius: 100px;
+}
+#index-start #start-container a:link:hover, #index-start #start-container a:link:active, #index-start #start-container a:visited:hover, #index-start #start-container a:visited:active {
+  background-color: var(--charcoal);
+  color: var(--white);
 }
