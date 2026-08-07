@@ -317,6 +317,7 @@ template {
   --light-green: #F0FAEB;
   --grey: #D1D1D1;
   --light-grey: #F4F4F5;
+  --charcoal: #18181B;
 }
 
 /* ---------------- Font Sizing ---------------- */
@@ -362,6 +363,7 @@ ul li {
 ============= */
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
+  color: var(--charcoal);
 }
 
 h1, h2, h3, h4, h5, p {
@@ -1001,4 +1003,54 @@ header #header-container #mainNav #nav-indicator {
 }
 #index-projects #index-projects-container #projects #project-content h2 {
   font-size: 1.375rem;
+}
+
+/* =============
+    Index - Process
+============= */
+@media (min-width: 1200px) {
+  #index-process {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". index-process .";
+  }
+}
+@media (min-width: 1200px) {
+  #index-process #process-container {
+    grid-area: index-process;
+  }
+}
+#index-process #process-container #title-block p {
+  margin-top: 12px;
+}
+#index-process #process-container ul {
+  display: grid;
+  grid-template-columns: 50% auto;
+  gap: 24px;
+}
+@media (min-width: 992px) {
+  #index-process #process-container ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+#index-process #process-container ul li {
+  text-align: center;
+}
+#index-process #process-container ul li .icon {
+  display: inline-block;
+  padding: 16px;
+  background-color: var(--light-grey);
+  border-radius: 100px;
+  color: var(--dark-green);
+}
+@media (min-width: 1200px) {
+  #index-process #process-container ul li .icon {
+    padding: 24px;
+  }
+}
+#index-process #process-container ul li h3 {
+  margin: 16px 0 8px;
+}
+#index-process #process-container ul li p {
+  font-size: 0.875rem;
 }

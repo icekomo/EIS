@@ -1,0 +1,61 @@
+/* =============
+    Index - Process
+============= */
+@use "../../helpers";
+
+#index-process{
+
+    @include helpers.xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". index-process .";
+    }
+
+    #process-container{
+
+        @include helpers.xl{
+            grid-area: index-process;
+        }
+        
+
+        #title-block{
+            p{
+                margin-top: 12px;
+            }
+        }
+
+        ul{
+            display: grid;
+            grid-template-columns: 50% auto;
+            gap: 24px;
+
+            @include helpers.lg{
+                grid-template-columns: repeat(4, 1fr);
+            }
+
+            li{
+                text-align: center;
+                .icon{
+                    display: inline-block;
+                    padding: 16px;
+                    background-color: var(--light-grey);
+                    border-radius: 100px;
+                    color: var(--dark-green);
+
+                    @include helpers.xl{
+                         padding: 24px;
+                    }
+                    
+                }
+
+                h3{
+                    margin: 16px 0 8px;
+                }
+
+                p{
+                    font-size: helpers.rem-calc(14);
+                }
+            }
+        }
+    }
+}
