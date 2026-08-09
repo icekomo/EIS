@@ -35,22 +35,7 @@
             width: 800px;
         }
 
-        h1{
-            font-size: helpers.rem-calc(60);
-            font-weight: 900;
 
-            @include helpers.md{
-                font-size: helpers.rem-calc(90);
-            }
-
-            @include helpers.lg{
-                font-size: helpers.rem-calc(100);
-            }
-
-            @include helpers.xl{
-               font-size: helpers.rem-calc(110);
-            }
-        }
 
         p{
             margin: 54px 0 36px;

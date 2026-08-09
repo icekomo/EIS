@@ -1,0 +1,33 @@
+/* =============
+    Contact - Hero
+============= */
+@use "../../helpers";
+
+#contact-hero{
+    padding-top: 120px;
+    background-color: var(--light-grey);
+
+    display: grid;
+    grid-template-columns: 8px auto 8px;
+    grid-template-areas: ". contact-hero .";
+
+    @include helpers.md{
+        padding-top: 150px;
+    }
+
+    @include helpers.lg{
+        padding-top: 200px;
+    }
+
+    #contact-hero-content{
+
+        grid-area: contact-hero;
+        text-align: center;
+
+        p{
+            margin-top: 24px;
+            font-size: helpers.rem-calc(18);
+        }
+
+    }
+}
