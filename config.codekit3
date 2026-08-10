@@ -317,6 +317,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/services\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 497378,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/services\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -336,12 +349,12 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/deploy\/xml\/bios.xml" : {
+    "\/deploy\/services.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/xml\/bios.xml",
+      "oAP" : "\/deploy\/services.html",
       "oF" : 0
     },
     "\/dev\/about.kit" : {
@@ -622,6 +635,38 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/index\/index-stats.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/services\/services-excellence.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/services\/services-excellence.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/services\/services-hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/services\/services-hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/services\/services-offerings.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/services\/services-offerings.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/services\/services-start.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/services\/services-start.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -1178,6 +1223,45 @@
       "oS" : 0,
       "pg" : 0
     },
+    "\/dev\/scss\/sections\/services\/_services-excellence.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/services\/_services-excellence.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/dev\/scss\/sections\/services\/_services-hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/services\/_services-hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/dev\/scss\/sections\/services\/_services-offerings.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/services\/_services-offerings.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1190,6 +1274,14 @@
       "oF" : 2,
       "oS" : 0,
       "pg" : 0
+    },
+    "\/dev\/services.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/services.html",
+      "oF" : 2
     },
     "\/favicon\/apple-touch-icon.png" : {
       "ft" : 32768,

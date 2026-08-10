@@ -380,6 +380,59 @@ ul li {
   margin: 24px 0;
 }
 
+#green-start {
+  background-color: var(--dark-green);
+  color: var(--white);
+}
+@media (min-width: 992px) {
+  #green-start {
+    display: grid;
+    grid-template-columns: auto 992px auto;
+    grid-template-areas: ". index-start .";
+  }
+}
+#green-start #start-container {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  #green-start #start-container {
+    grid-area: index-start;
+  }
+}
+#green-start #start-container h2 {
+  font-size: 3.125rem;
+  font-weight: 900;
+}
+@media (min-width: 768px) {
+  #green-start #start-container h2 {
+    font-size: 4.375rem;
+  }
+}
+@media (min-width: 992px) {
+  #green-start #start-container h2 {
+    font-size: 5.625rem;
+  }
+}
+@media (min-width: 1200px) {
+  #green-start #start-container h2 {
+    font-size: 6.875rem;
+  }
+}
+#green-start #start-container p {
+  margin: 24px 0;
+}
+#green-start #start-container a:link, #green-start #start-container a:visited {
+  background-color: var(--white);
+  color: var(--black);
+  font-weight: 500;
+  padding: 16px;
+  border-radius: 100px;
+}
+#green-start #start-container a:link:hover, #green-start #start-container a:link:active, #green-start #start-container a:visited:hover, #green-start #start-container a:visited:active {
+  background-color: var(--charcoal);
+  color: var(--white);
+}
+
 /* =============
     Typography
 ============= */
@@ -494,6 +547,10 @@ a {
   text-decoration: none;
   display: inline-block;
   transition: 0.25s;
+}
+
+.active-page a {
+  color: var(--green) !important;
 }
 
 #mainNav {
@@ -1692,4 +1749,47 @@ footer #footer-content #bottom div a:visited a:active {
 }
 #about-expert-container #about-expert-content ul li #person-4 {
   background-image: url("../img/about/person-4.jpg");
+}
+
+/* =============
+    Services - Hero
+============= */
+#services-hero {
+  background-image: url("../img/services/hero.jpg");
+  background-size: cover;
+  height: 40vh;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 120px 8px;
+}
+#services-hero #services-content {
+  grid-area: services-hero;
+  text-align: center;
+  color: var(--charcoal);
+}
+
+/* =============
+    Services - Offerings
+============= */
+#services-offerings-containter #services-offering-container ul {
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  #services-offerings-containter #services-offering-container ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  #services-offerings-containter #services-offering-container ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  #services-offerings-containter #services-offering-container ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

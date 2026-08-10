@@ -1,0 +1,28 @@
+/* =============
+    Services - Offerings
+============= */
+@use "../../helpers";
+
+
+#services-offerings-containter{
+
+    #services-offering-container{
+        ul{
+            display: grid;
+            gap: 16px;
+
+            @include helpers.md{
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            @include helpers.lg{
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            @include helpers.xl{
+                grid-template-columns: repeat(4, 1fr);
+            }
+            
+        }
+    }
+}

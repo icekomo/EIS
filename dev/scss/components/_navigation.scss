@@ -9,6 +9,12 @@ a{
     transition: 0.25s;
 }
 
+.active-page{
+    a{
+        color: var(--green) !important;
+    }
+}
+
 
 #mainNav{
     width: 100%;
@@ -19,12 +25,6 @@ a{
     @include helpers.lg{
         overflow: visible;
         height: auto; // always open on desktop
-        // display: flex;
-        // align-items: center;
-        // justify-content: flex-start;
-        // width: 100%;
-        // justify-content: flex-end;
-        // border: 1px solid red;
     }
 
 

@@ -1,0 +1,22 @@
+/* =============
+    Services - Hero
+============= */
+@use "../../helpers";
+
+#services-hero{
+    background-image: url("../img/services/hero.jpg");
+    background-size: cover;
+    height: 40vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 120px 8px;
+
+    #services-content{
+        grid-area: services-hero;
+        text-align: center;
+        color: var(--charcoal);
+    }
+}
