@@ -1,0 +1,70 @@
+/* =============
+    About - Expertise
+============= */
+@use "../../helpers";
+
+#about-expert-container{
+
+    display: grid;
+    grid-template-columns: 8px auto 8px;
+    grid-template-areas: ". expert .";
+
+    @include helpers.xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
+    #about-expert-content{
+        grid-area: expert;
+
+        ul{
+            display: grid;
+            gap: 16px;
+            
+
+            @include helpers.md{
+                grid-template-columns: repeat(2,1fr);
+                gap: 32px;
+            }
+
+            @include helpers.lg{
+                grid-template-columns: repeat(4,1fr);
+                gap: 48px;
+            }
+
+            li{
+                .photo{
+                    height: 300px;
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 32px;
+                }
+
+                h3{ 
+                    margin: 8px 0 4px;
+                    
+                }
+
+                h4{
+                    color: var(--dark-grey);
+                    font-size: helpers.rem-calc(14);
+                }
+
+                #person-1{
+                    background-image: url("../img/about/person-1.jpg");
+                }
+
+                #person-2{
+                    background-image: url("../img/about/person-2.jpg");
+                }
+
+                #person-3{
+                    background-image: url("../img/about/person-3.jpg");
+                }
+
+                #person-4{
+                    background-image: url("../img/about/person-4.jpg");
+                }
+            }
+        }
+    }
+}

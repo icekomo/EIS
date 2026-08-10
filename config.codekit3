@@ -520,6 +520,14 @@
       "oAP" : "\/dev\/content\/about\/about-expertise.html",
       "oF" : 0
     },
+    "\/dev\/content\/about\/about-experts.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/about\/about-experts.html",
+      "oF" : 0
+    },
     "\/dev\/content\/about\/about-hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -984,6 +992,19 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_home.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/dev\/scss\/sections\/about\/_about-expert.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/about\/_about-expert.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
