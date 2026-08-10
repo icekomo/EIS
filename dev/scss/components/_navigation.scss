@@ -61,6 +61,7 @@ a{
                 transition: 0.25s;
                 height: 100%;
                 text-transform: uppercase;
+                color: var(--charcoal);
 
                 @include helpers.lg{
                       padding: 24px;
@@ -71,8 +72,7 @@ a{
                 &:hover, &:active{
 
                     @include helpers.lg{
-                        background-color: var(--gray-light);
-                        color: var(--white);
+                        color: var(--dark-green);
                         border: 8px;
                         border-radius: 8px;
                     }

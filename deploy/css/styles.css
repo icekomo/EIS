@@ -373,6 +373,13 @@ ul li {
   text-align: center;
 }
 
+.divide {
+  height: 1px;
+  width: 100%;
+  background-color: var(--grey);
+  margin: 24px 0;
+}
+
 /* =============
     Typography
 ============= */
@@ -531,6 +538,7 @@ a {
   transition: 0.25s;
   height: 100%;
   text-transform: uppercase;
+  color: var(--charcoal);
 }
 @media (min-width: 992px) {
   #mainNav ul li a:link, #mainNav ul li a:visited {
@@ -540,8 +548,7 @@ a {
 }
 @media (min-width: 992px) {
   #mainNav ul li a:link:hover, #mainNav ul li a:link:active, #mainNav ul li a:visited:hover, #mainNav ul li a:visited:active {
-    background-color: var(--gray-light);
-    color: var(--white);
+    color: var(--dark-green);
     border: 8px;
     border-radius: 8px;
   }
@@ -1480,4 +1487,151 @@ footer #footer-content #bottom div a:visited a:active {
   padding: 12px 16px;
   font-weight: 600;
   box-shadow: 0 12px 24px -8px rgba(107, 199, 46, 0.6);
+}
+
+/* =============
+    About - Hero
+============= */
+#about-hero {
+  background-image: url("../img/about/hero.jpg");
+  background-size: cover;
+  height: 40vh;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 80px;
+}
+#about-hero #about-content {
+  text-align: center;
+  color: var(--white);
+}
+
+/* =============
+    About - Expertise
+============= */
+#about-expertise-container {
+  display: grid;
+  grid-template-columns: 8px auto 8px;
+  grid-template-areas: ". expertise .";
+}
+@media (min-width: 1200px) {
+  #about-expertise-container {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#about-expertise-container #about-expertise-content {
+  grid-area: expertise;
+}
+@media (min-width: 768px) {
+  #about-expertise-container #about-expertise-content {
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 24px;
+  }
+}
+@media (min-width: 992px) {
+  #about-expertise-container #about-expertise-content {
+    gap: 48px;
+  }
+}
+#about-expertise-container #about-expertise-content #about-content-left p {
+  margin-bottom: 16px;
+}
+#about-expertise-container #about-expertise-content #about-content-left #about-stats {
+  display: flex;
+}
+#about-expertise-container #about-expertise-content #about-content-left #about-stats .stat h4 {
+  font-weight: 700;
+  font-weight: 1.875rem;
+}
+#about-expertise-container #about-expertise-content #about-content-left #about-stats .stat p {
+  color: var(--dark-grey);
+}
+#about-expertise-container #about-expertise-content #about-content-left #about-stats #stat-right {
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  #about-expertise-container #about-expertise-content #about-content-right {
+    height: 100%;
+    background-image: url("../img/about/decades.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+  }
+}
+
+/* =============
+    About - Values
+============= */
+#about-values-container {
+  background-color: var(--light-grey);
+  display: grid;
+  grid-template-columns: 8px auto 8px;
+  grid-template-areas: ". values .";
+}
+@media (min-width: 1200px) {
+  #about-values-container {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#about-values-container #about-values-content {
+  grid-area: values;
+  text-align: center;
+}
+#about-values-container #about-values-content ul {
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  #about-values-container #about-values-content ul {
+    grid-auto-columns: repeat(4, 1fr);
+    grid-template-areas: "c1 c1 c2 c2" ".. c3 c3 ..";
+    gap: 24px;
+  }
+}
+@media (min-width: 992px) {
+  #about-values-container #about-values-content ul {
+    grid-auto-columns: repeat(3, 1fr);
+    grid-template-areas: "c1 c2 c3";
+    gap: 32px;
+  }
+}
+#about-values-container #about-values-content ul li {
+  background-color: var(--white);
+  padding: 32px 32px;
+  border-radius: 32px;
+  text-align: center;
+}
+#about-values-container #about-values-content ul li .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-grey);
+  display: inline-block;
+  padding: 12px;
+  color: var(--dark-green);
+  border-radius: 100px;
+}
+#about-values-container #about-values-content ul li h2 {
+  margin: 16px 0;
+}
+#about-values-container #about-values-content ul li p {
+  color: var(--dark-grey);
+}
+@media (min-width: 768px) {
+  #about-values-container #about-values-content ul #card-1 {
+    grid-area: c1;
+  }
+}
+@media (min-width: 768px) {
+  #about-values-container #about-values-content ul #card-2 {
+    grid-area: c2;
+  }
+}
+@media (min-width: 768px) {
+  #about-values-container #about-values-content ul #card-3 {
+    grid-area: c3;
+  }
 }

@@ -1,0 +1,63 @@
+/* =============
+    About - Expertise
+============= */
+@use "../../helpers";
+
+#about-expertise-container{
+    display: grid;
+    grid-template-columns: 8px auto 8px;
+    grid-template-areas: ". expertise .";
+
+    @include helpers.xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
+    #about-expertise-content{
+        grid-area: expertise;
+
+        @include helpers.md{
+            display: grid;
+            grid-template-columns: 50% auto;
+            gap: 24px;
+        }
+
+        @include helpers.lg{
+            gap: 48px;
+        }
+
+        #about-content-left{
+
+            p{
+                margin-bottom: 16px;
+            }
+
+            #about-stats{
+                display: flex;
+                .stat{
+                    h4{
+                        font-weight: 700;
+                        font-weight: helpers.rem-calc(30);
+                    }
+                    p{
+                        color: var(--dark-grey);
+                    }
+                }
+
+                #stat-right{
+                    margin-left: auto;
+                }
+            }
+
+        }
+
+        #about-content-right{
+            @include helpers.md{
+                height: 100%;
+                background-image: url("../img/about/decades.jpg");
+                background-size: cover;
+                background-position: center;
+                border-radius: 24px;
+            }
+        }
+    }
+}

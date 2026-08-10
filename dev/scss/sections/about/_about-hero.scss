@@ -1,0 +1,21 @@
+/* =============
+    About - Hero
+============= */
+@use "../../helpers";
+
+#about-hero{
+    background-image: url("../img/about/hero.jpg");
+    background-size: cover;
+    height: 40vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+
+    #about-content{
+        text-align: center;
+        color: var(--white);
+    }
+}

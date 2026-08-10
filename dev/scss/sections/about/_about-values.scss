@@ -1,0 +1,82 @@
+/* =============
+    About - Values
+============= */
+@use "../../helpers";
+
+#about-values-container{
+    background-color: var(--light-grey);
+    display: grid;
+    grid-template-columns: 8px auto 8px;
+    grid-template-areas: ". values .";
+
+    @include helpers.xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
+    #about-values-content{
+        grid-area: values;
+        text-align: center;
+
+        ul{
+            display: grid;
+            gap: 16px;
+
+            @include helpers.md{
+                grid-auto-columns: repeat(4, 1fr);
+                grid-template-areas: "c1 c1 c2 c2"
+                                     ".. c3 c3 ..";
+                gap: 24px;
+            }
+
+            @include helpers.lg{
+                grid-auto-columns: repeat(3, 1fr);
+                grid-template-areas: "c1 c2 c3";
+                gap: 32px;
+            }
+
+            li{
+                background-color: var(--white);
+                padding: 32px 32px;
+                border-radius: 32px;
+                text-align: center;
+
+                .icon{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: var(--light-grey);
+                    display: inline-block;
+                    padding: 12px;
+                    color: var(--dark-green);
+                    border-radius: 100px;
+                }
+
+                h2{
+                    margin: 16px 0;
+                }
+
+                p{
+                    color: var(--dark-grey);
+                }
+            }
+
+            #card-1{
+                @include helpers.md{
+                    grid-area: c1;
+                }
+            }
+
+            #card-2{
+                @include helpers.md{
+                    grid-area: c2;
+                }
+            }
+
+            #card-3{
+                @include helpers.md{
+                    grid-area: c3
+                }
+            }
+        }
+    }
+}
