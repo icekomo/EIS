@@ -1770,6 +1770,30 @@ footer #footer-content #bottom div a:visited a:active {
   text-align: center;
   color: var(--charcoal);
 }
+@media (min-width: 992px) {
+  #services-hero #services-content h1 {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+#services-hero #services-content p {
+  margin: 54px 0 36px;
+  font-size: 1.375rem;
+}
+@media (min-width: 992px) {
+  #services-hero #services-content p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  #services-hero #services-content p {
+    width: 70%;
+    font-size: 1.625rem;
+  }
+}
 
 /* =============
     Services - Offerings
