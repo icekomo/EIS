@@ -1798,6 +1798,18 @@ footer #footer-content #bottom div a:visited a:active {
 /* =============
     Services - Offerings
 ============= */
+@media (min-width: 1200px) {
+  #services-offerings-containter {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". services .";
+  }
+}
+@media (min-width: 1200px) {
+  #services-offerings-containter #services-offering-container {
+    grid-area: services;
+  }
+}
 #services-offerings-containter #services-offering-container ul {
   display: grid;
   gap: 16px;
@@ -1816,4 +1828,104 @@ footer #footer-content #bottom div a:visited a:active {
   #services-offerings-containter #services-offering-container ul {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+#services-offerings-containter #services-offering-container ul .photo {
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+}
+@media (min-width: 768px) {
+  #services-offerings-containter #services-offering-container ul .photo {
+    height: 250px;
+  }
+}
+@media (min-width: 992px) {
+  #services-offerings-containter #services-offering-container ul .photo {
+    height: 300px;
+  }
+}
+#services-offerings-containter #services-offering-container ul h2 {
+  margin: 12px 0px 8px;
+}
+#services-offerings-containter #services-offering-container ul p {
+  color: var(--dark-grey);
+  margin-bottom: 16px;
+}
+#services-offerings-containter #services-offering-container ul #offering-1 {
+  background-image: url("../img/services/epoxy-coating.jpg");
+}
+#services-offerings-containter #services-offering-container ul #offering-2 {
+  background-image: url("../img/services/polyurethane.jpg");
+}
+#services-offerings-containter #services-offering-container ul #offering-3 {
+  background-image: url("../img/services/zinc-rich.jpg");
+}
+#services-offerings-containter #services-offering-container ul #offering-4 {
+  background-image: url("../img/services/intumescent.jpg");
+}
+#services-offerings-containter #services-offering-container ul #offering-5 {
+  background-image: url("../img/services/acrylic.jpg");
+}
+#services-offerings-containter #services-offering-container ul #offering-6 {
+  background-image: url("../img/services/ceramic.jpg");
+}
+#services-offerings-containter #services-offering-container ul #offering-7 {
+  background-image: url("../img/services/anti.jpg");
+}
+#services-offerings-containter #services-offering-container ul #offering-8 {
+  background-image: url("../img/services/building.jpg");
+}
+
+/* =============
+    Services - Excellence
+============= */
+#services-excellence-container {
+  background-color: var(--light-grey);
+  display: grid;
+  grid-template-columns: 8px auto 8px;
+  grid-template-areas: ". excellence .";
+}
+@media (min-width: 1200px) {
+  #services-excellence-container {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#services-excellence-container #services-excellence-content {
+  grid-area: excellence;
+}
+#services-excellence-container #services-excellence-content p {
+  color: var(--dark-grey);
+  font-size: 1.5rem;
+}
+#services-excellence-container #services-excellence-content ul {
+  display: grid;
+  gap: 16px;
+  margin-top: 24px;
+}
+@media (min-width: 768px) {
+  #services-excellence-container #services-excellence-content ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  #services-excellence-container #services-excellence-content ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+#services-excellence-container #services-excellence-content ul li {
+  background-color: var(--white);
+  border-radius: 32px;
+  text-align: center;
+  padding: 24px;
+}
+#services-excellence-container #services-excellence-content ul li .icon {
+  margin: 16px;
+}
+#services-excellence-container #services-excellence-content ul li h3 {
+  margin-bottom: 16px;
+}
+#services-excellence-container #services-excellence-content ul li p {
+  color: var(--dark-grey);
+  font-size: 1rem;
 }

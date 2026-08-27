@@ -6,7 +6,20 @@
 
 #services-offerings-containter{
 
+    @include helpers.xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". services .";
+    }
+
+
     #services-offering-container{
+
+        @include helpers.xl{
+            grid-area: services;
+        }
+
+
         ul{
             display: grid;
             gap: 16px;
@@ -22,7 +35,63 @@
             @include helpers.xl{
                 grid-template-columns: repeat(4, 1fr);
             }
-            
+
+            .photo{
+                height: 200px;
+                background-position: center;
+                background-size: cover;
+                border-radius: 30px;
+
+                @include helpers.md{
+                    height: 250px;
+                }
+
+                @include helpers.lg{
+                    height: 300px;
+                }
+            }
+
+            h2{
+                margin: 12px 0px 8px;
+            }
+
+            p{
+                color: var(--dark-grey);
+                margin-bottom: 16px;
+            }
+
+            #offering-1{
+                background-image: url("../img/services/epoxy-coating.jpg");
+            }
+
+            #offering-2{
+                background-image: url("../img/services/polyurethane.jpg");
+            }
+
+            #offering-3{
+                background-image: url("../img/services/zinc-rich.jpg");
+            }
+
+            #offering-4{
+                background-image: url("../img/services/intumescent.jpg");
+            }
+
+            #offering-5{
+                background-image: url("../img/services/acrylic.jpg");
+            }
+
+            #offering-6{
+                background-image: url("../img/services/ceramic.jpg");
+            }
+
+            #offering-7{
+                background-image: url("../img/services/anti.jpg");
+            }
+
+            #offering-8{
+                background-image: url("../img/services/building.jpg");
+            }
+
         }
     }
 }
