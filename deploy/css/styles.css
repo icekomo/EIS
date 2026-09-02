@@ -754,12 +754,7 @@ footer #footer-content {
 @media (min-width: 768px) {
   footer #footer-content #footer-top {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-@media (min-width: 992px) {
-  footer #footer-content #footer-top {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 footer #footer-content #footer-top #logo p {
