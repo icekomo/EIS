@@ -23,16 +23,21 @@ footer {
                 grid-template-columns: repeat(2, 1fr)
             }
 
-            // @include helpers.lg{
-            //     grid-template-columns: repeat(2, 1fr)
-            // }
-
             #logo {
                 p {
                     margin: 16px 0;
                 }
 
-                ul {
+               
+            }
+
+            #socials{
+                @include helpers.md{
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                }
+                 ul {
                     display: flex;
 
                     li {

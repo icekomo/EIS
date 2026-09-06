@@ -1,0 +1,207 @@
+/* =============
+    Project Detail - Content
+============= */
+@use "../../helpers";
+
+
+#project-detail-container{
+
+    display: grid;
+    grid-template-columns: 8px auto 8px;
+    grid-template-areas: ". project-content .";
+
+    @include helpers.xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
+    #project-detail-content{
+        grid-area: project-content;
+
+        @include helpers.md{
+            display: grid;
+            grid-template-columns: 30% auto;
+            grid-template-areas: "callout details";
+            gap: 16px;
+        }
+
+        @include helpers.lg{
+            grid-template-columns: 25% auto;
+        }
+
+        #project-details{
+            @include helpers.md{
+                grid-area: details;
+            }
+
+            section{
+                margin-bottom: 24px;
+                h2{
+                    margin-bottom: 12px;
+                }
+
+                h3{
+                     margin-bottom: 12px;
+                }
+
+                p{
+                    color: var(--dark-grey);
+                }
+            }
+
+            #challenge{
+                ul{
+                    margin-top: 24px;
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap:16px;
+
+                    li{
+                        background-position: center;
+                        background-size: cover;
+                        border-radius: 12px;
+                        height: 100px;
+
+                        @include helpers.md{
+                            height: 200px;
+                        }
+
+                        @include helpers.lg{
+                            height: 300px;
+                        }
+                    }
+
+                    #challenge-1{
+                        background-image: url("../img/project-detail/project-1/challenge-1.jpg");
+                    }
+
+                    #challenge-2{
+                         background-image: url("../img/project-detail/project-1/challenge-2.jpg");
+                    }
+                }
+            }
+
+            #solution{
+                ul{
+                    margin-top: 24px;
+                    li{
+                        color: var(--dark-grey);
+                        margin-bottom: 12px;
+                        display: flex;
+                        // align-items: center;
+                        i{
+                            color: var(--green);
+                            margin-right: 8px;
+                        }
+                    }
+                }
+            }
+
+            #gallery{
+                ul{
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 12px;
+                    margin-bottom: 24px;
+
+                    @include helpers.lg{
+                        grid-template-columns: repeat(3, 1fr);
+                    }
+                    li{
+                        height: 150px;
+                        background-position: center;
+                        background-size: cover;
+                        border-radius: 12px;
+                    }
+
+                    #gallery-1{
+                        background-image: url("../img/project-detail/project-1/gallery-1.jpg");
+                    }
+
+                    #gallery-2{
+                        background-image: url("../img/project-detail/project-1/gallery-2.jpg");
+                    }
+
+                    #gallery-3{
+                        background-image: url("../img/project-detail/project-1/gallery-3.jpg");
+                    }
+
+                    #gallery-4{
+                        background-image: url("../img/project-detail/project-1/gallery-4.jpg");
+                    }
+
+                    #gallery-5{
+                        background-image: url("../img/project-detail/project-1/gallery-5.jpg");
+                    }
+
+                    #gallery-6{
+                        background-image: url("../img/project-detail/project-1/gallery-6.jpg");
+                    }
+                }
+            }
+        }
+
+        #project-callouts{
+            display: flex;
+            gap: 16px;
+
+            @include helpers.md{
+                grid-area: callout;
+                flex-direction: column;
+            }
+
+            #achievements{
+                background-color: var(--light-grey);
+                padding: 16px;
+                border-radius: 16px;
+                display: inline-block;
+
+                h4{
+                    margin-bottom: 16px;
+                }
+
+                ul{
+
+                    li{
+                        display: flex;
+                        margin-bottom: 16px;
+                        font-weight: 600;
+                        font-size: helpers.rem-calc(14);
+                        i{
+                            margin-right: 8px;
+                            color: var(--green);
+                        }
+                    }
+                }
+            }
+
+            #results{
+                background-color: var(--charcoal);
+                color: var(--white);
+                padding: 16px;
+                border-radius: 16px;
+                display: inline-block;
+
+                h4{
+                    margin-bottom: 16px;
+                }
+
+                p{
+                    color: var(--dark-grey);
+                    font-size: helpers.rem-calc(14);
+                }
+
+                a{
+                    margin-top: 24px;
+                    background-color: var(--green);
+                    color: var(--white);
+                    padding: 12px 24px;
+                    border-radius: 36px;
+
+                    &:hover{
+                        background-color: var(--dark-green);
+                    }
+                }
+            }
+        }
+    }
+}

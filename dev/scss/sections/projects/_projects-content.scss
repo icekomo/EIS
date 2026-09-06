@@ -46,27 +46,27 @@
                     }
                 }
 
-                .details{
-                    display: flex;
-                    align-items: center;
+                // .details{
+                //     display: flex;
+                //     align-items: center;
 
-                    .green-pill{
-                        background-color: var(--light-green);
-                        border: 1px solid var(--green);
-                        color: var(--dark-green);
-                        padding: 8px 16px;
-                        border-radius: 100px;
-                        text-align: center;
-                        display: inline-block;
-                        font-size: helpers.rem-calc(10);
-                        margin-right: 12px;
-                    }
+                //     .green-pill{
+                //         background-color: var(--light-green);
+                //         border: 1px solid var(--green);
+                //         color: var(--dark-green);
+                //         padding: 8px 16px;
+                //         border-radius: 100px;
+                //         text-align: center;
+                //         display: inline-block;
+                //         font-size: helpers.rem-calc(10);
+                //         margin-right: 12px;
+                //     }
 
-                    .year{
-                        color: var(--dark-grey);
-                        font-size: helpers.rem-calc(12);
-                    }
-                }
+                //     .year{
+                //         color: var(--dark-grey);
+                //         font-size: helpers.rem-calc(12);
+                //     }
+                // }
 
                 h2{
                     font-size: helpers.rem-calc(22);

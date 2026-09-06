@@ -1,0 +1,92 @@
+/* =============
+    Project Detail - Hero
+============= */
+@use "../../helpers";
+
+#project-detail-hero{
+    padding-top: 120px;
+    background-color: var(--light-grey);
+    display: grid;
+    grid-template-columns: 8px auto 8px;
+    grid-template-areas: ". project-detail-hero .";
+
+    @include helpers.md{
+        padding-top: 150px;
+    }
+
+    @include helpers.lg{
+        padding-top: 200px;
+    }
+
+    @include helpers.xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
+    #project-hero-container{
+
+        grid-area: project-detail-hero;
+        display: grid;
+        gap: 16px;
+
+        @include helpers.md{
+            grid-template-columns: 50% auto;
+        }
+
+        #project-hero-left{
+
+            #project-title{
+                font-weight: 600;
+                font-size: helpers.rem-calc(40);
+                margin: 32px 0;
+            }
+
+            #project-description{
+                color: var(--dark-grey);
+            }
+
+            #divide-line{
+                height: 1px;
+                background-color: var(--dark-grey);
+                margin: 32px 0;
+            }
+
+            ul{
+                
+                display: grid;
+                gap: 16px;
+
+                @include helpers.md{
+                    grid-template-columns: repeat(2,1fr);
+                }
+
+
+                li{
+                    h5{
+                        font-size: helpers.rem-calc(10);
+                        font-weight: 450;
+                        color: var(--dark-grey);
+                        margin-bottom: 4px;
+                    }
+
+                    h4{
+                        font-size: helpers.rem-calc(16);
+                    }
+                }
+            }
+
+        }
+
+        #project-hero-right{
+            background-image: url("../img/project-detail/project-1/project-hero.jpg");
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 32px;
+
+            @include helpers.md{
+                height: 100%;
+            }
+        }
+
+    }
+}

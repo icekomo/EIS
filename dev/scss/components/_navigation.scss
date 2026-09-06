@@ -15,6 +15,16 @@ a{
     }
 }
 
+.back-btn{
+    color: var(--dark-green);
+    font-weight: 500;
+    margin-bottom: 24px;
+    i{
+        color: var(--black);
+        margin-right: 2px;
+    }
+}
+
 
 #mainNav{
     width: 100%;
