@@ -317,6 +317,84 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/projects\/project-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 186810,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/project-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/project-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 143537,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/project-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/project-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 250050,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/project-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/project-4.jpg" : {
+      "ft" : 16384,
+      "iS" : 162895,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/project-4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/project-5.jpg" : {
+      "ft" : 16384,
+      "iS" : 195119,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/project-5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/project-6.jpg" : {
+      "ft" : 16384,
+      "iS" : 251990,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/project-6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/services\/Acrylic.jpg" : {
       "ft" : 16384,
       "iS" : 360216,
@@ -492,6 +570,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/deploy\/projects.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects.html",
+      "oF" : 0
     },
     "\/deploy\/services.html" : {
       "cB" : 0,
@@ -781,6 +867,30 @@
       "oAP" : "\/dev\/content\/index\/index-stats.html",
       "oF" : 0
     },
+    "\/dev\/content\/project-detail\/_project-detail-hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/project-detail\/_project-detail-hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/projects\/project-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/projects\/project-content.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/projects\/project-hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/projects\/project-hero.html",
+      "oF" : 0
+    },
     "\/dev\/content\/services\/services-excellence.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1029,6 +1139,22 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/project-detail.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/project-detail.html",
+      "oF" : 2
+    },
+    "\/dev\/projects.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects.html",
+      "oF" : 2
+    },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1168,19 +1294,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0
-    },
-    "\/dev\/scss\/sections\/_home.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_home.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1363,6 +1476,32 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/index\/_index-stats.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/dev\/scss\/sections\/project-detail\/_project-hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/project-detail\/_project-hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/dev\/scss\/sections\/projects\/_projects-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/projects\/_projects-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0

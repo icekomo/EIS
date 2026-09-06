@@ -1,0 +1,130 @@
+/* =============
+    Projects Content
+============= */
+@use "../../helpers";
+
+#project-content{
+    display: grid;
+    grid-template-columns: 8px auto 8px;
+    grid-template-areas: ". projects .";
+
+    @include helpers.xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
+    #project-container{
+        grid-area: projects;
+
+        ul{
+            display: grid;
+            gap: 24px;
+
+            @include helpers.md{
+                grid-template-columns: 50% auto;
+                gap: 36px;
+            }
+
+            @include helpers.lg{
+                grid-template-columns:repeat(3,1fr);
+                gap: 48px;
+            }
+
+            li{
+                .project-hero{
+                    background-size: cover;
+                    height: 300px;
+                    background-position: center;
+                    border-radius: 12px;
+                    margin-bottom: 16px;
+
+                    @include helpers.md{
+                        height: 400px;
+                    }
+
+                    @include helpers.lg{
+                        height: 500px;
+                    }
+                }
+
+                .details{
+                    display: flex;
+                    align-items: center;
+
+                    .green-pill{
+                        background-color: var(--light-green);
+                        border: 1px solid var(--green);
+                        color: var(--dark-green);
+                        padding: 8px 16px;
+                        border-radius: 100px;
+                        text-align: center;
+                        display: inline-block;
+                        font-size: helpers.rem-calc(10);
+                        margin-right: 12px;
+                    }
+
+                    .year{
+                        color: var(--dark-grey);
+                        font-size: helpers.rem-calc(12);
+                    }
+                }
+
+                h2{
+                    font-size: helpers.rem-calc(22);
+                    margin: 16px 0;
+                }
+
+                p{
+                    color: var(--dark-grey);
+                }
+
+                .project-btn{
+                    margin-top: 24px;
+                    background-color: var(--green);
+                    color: var(--white);
+                    padding: 12px 24px;
+                    border-radius: 36px;
+
+                    &:hover{
+                        background-color: var(--dark-green);
+                    }
+                }
+            }
+
+            #project-1{
+                .project-hero{
+                    background-image: url("../img/projects/project-1.jpg");
+                }
+            }
+
+            #project-2{
+                .project-hero{
+                    background-image: url("../img/projects/project-2.jpg");
+                }
+            }
+
+            #project-3{
+                .project-hero{
+                    background-image: url("../img/projects/project-3.jpg");
+                }
+            }
+
+            #project-4{
+                .project-hero{
+                    background-image: url("../img/projects/project-4.jpg");
+                }
+            }
+
+            #project-5{
+                .project-hero{
+                    background-image: url("../img/projects/project-5.jpg");
+                }
+            }
+
+            #project-6{
+                .project-hero{
+                    background-image: url("../img/projects/project-6.jpg");
+                }
+            }
+        }
+    }
+}

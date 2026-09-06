@@ -1924,3 +1924,107 @@ footer #footer-content #bottom div a:visited a:active {
   color: var(--dark-grey);
   font-size: 1rem;
 }
+
+/* =============
+    Projects Content
+============= */
+#project-content {
+  display: grid;
+  grid-template-columns: 8px auto 8px;
+  grid-template-areas: ". projects .";
+}
+@media (min-width: 1200px) {
+  #project-content {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#project-content #project-container {
+  grid-area: projects;
+}
+#project-content #project-container ul {
+  display: grid;
+  gap: 24px;
+}
+@media (min-width: 768px) {
+  #project-content #project-container ul {
+    grid-template-columns: 50% auto;
+    gap: 36px;
+  }
+}
+@media (min-width: 992px) {
+  #project-content #project-container ul {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+  }
+}
+#project-content #project-container ul li .project-hero {
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+@media (min-width: 768px) {
+  #project-content #project-container ul li .project-hero {
+    height: 400px;
+  }
+}
+@media (min-width: 992px) {
+  #project-content #project-container ul li .project-hero {
+    height: 500px;
+  }
+}
+#project-content #project-container ul li .details {
+  display: flex;
+  align-items: center;
+}
+#project-content #project-container ul li .details .green-pill {
+  background-color: var(--light-green);
+  border: 1px solid var(--green);
+  color: var(--dark-green);
+  padding: 8px 16px;
+  border-radius: 100px;
+  text-align: center;
+  display: inline-block;
+  font-size: 0.625rem;
+  margin-right: 12px;
+}
+#project-content #project-container ul li .details .year {
+  color: var(--dark-grey);
+  font-size: 0.75rem;
+}
+#project-content #project-container ul li h2 {
+  font-size: 1.375rem;
+  margin: 16px 0;
+}
+#project-content #project-container ul li p {
+  color: var(--dark-grey);
+}
+#project-content #project-container ul li .project-btn {
+  margin-top: 24px;
+  background-color: var(--green);
+  color: var(--white);
+  padding: 12px 24px;
+  border-radius: 36px;
+}
+#project-content #project-container ul li .project-btn:hover {
+  background-color: var(--dark-green);
+}
+#project-content #project-container ul #project-1 .project-hero {
+  background-image: url("../img/projects/project-1.jpg");
+}
+#project-content #project-container ul #project-2 .project-hero {
+  background-image: url("../img/projects/project-2.jpg");
+}
+#project-content #project-container ul #project-3 .project-hero {
+  background-image: url("../img/projects/project-3.jpg");
+}
+#project-content #project-container ul #project-4 .project-hero {
+  background-image: url("../img/projects/project-4.jpg");
+}
+#project-content #project-container ul #project-5 .project-hero {
+  background-image: url("../img/projects/project-5.jpg");
+}
+#project-content #project-container ul #project-6 .project-hero {
+  background-image: url("../img/projects/project-6.jpg");
+}
