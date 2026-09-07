@@ -317,6 +317,201 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-detail\/project-1\/challenge-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 132089,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-detail\/project-1\/challenge-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-detail\/project-1\/challenge-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 137861,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-detail\/project-1\/challenge-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-detail\/project-1\/gallery-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 57394,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-detail\/project-1\/gallery-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-detail\/project-1\/gallery-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 92627,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-detail\/project-1\/gallery-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-detail\/project-1\/gallery-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 57750,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-detail\/project-1\/gallery-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-detail\/project-1\/gallery-4.jpg" : {
+      "ft" : 16384,
+      "iS" : 78856,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-detail\/project-1\/gallery-4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-detail\/project-1\/gallery-5.jpg" : {
+      "ft" : 16384,
+      "iS" : 84226,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-detail\/project-1\/gallery-5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-detail\/project-1\/gallery-6.jpg" : {
+      "ft" : 16384,
+      "iS" : 46889,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-detail\/project-1\/gallery-6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-detail\/project-1\/project-hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 517486,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-detail\/project-1\/project-hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/project-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 186810,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/project-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/project-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 143537,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/project-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/project-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 250050,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/project-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/project-4.jpg" : {
+      "ft" : 16384,
+      "iS" : 162895,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/project-4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/project-5.jpg" : {
+      "ft" : 16384,
+      "iS" : 195119,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/project-5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/project-6.jpg" : {
+      "ft" : 16384,
+      "iS" : 251990,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/project-6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/services\/Acrylic.jpg" : {
       "ft" : 16384,
       "iS" : 360216,
@@ -492,6 +687,30 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/deploy\/privacy.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/privacy.html",
+      "oF" : 0
+    },
+    "\/deploy\/project-detail.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/project-detail.html",
+      "oF" : 0
+    },
+    "\/deploy\/projects.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects.html",
+      "oF" : 0
     },
     "\/deploy\/services.html" : {
       "cB" : 0,
@@ -781,6 +1000,38 @@
       "oAP" : "\/dev\/content\/index\/index-stats.html",
       "oF" : 0
     },
+    "\/dev\/content\/project-detail\/_project-detail-hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/project-detail\/_project-detail-hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/project-detail\/project-detail-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/project-detail\/project-detail-content.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/projects\/project-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/projects\/project-content.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/projects\/project-hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/projects\/project-hero.html",
+      "oF" : 0
+    },
     "\/dev\/content\/services\/services-excellence.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -835,6 +1086,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/header.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/privacy-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/privacy-content.html",
       "oF" : 0
     },
     "\/dev\/global\/schema.kit" : {
@@ -1029,6 +1288,46 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/privacy.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/privacy.html",
+      "oF" : 2
+    },
+    "\/dev\/project-detail.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/project-detail.html",
+      "oF" : 0
+    },
+    "\/dev\/project-detail.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/project-detail.html",
+      "oF" : 0
+    },
+    "\/dev\/projects.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/projects.html",
+      "oF" : 0
+    },
+    "\/dev\/projects.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/projects.html",
+      "oF" : 0
+    },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1168,19 +1467,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0
-    },
-    "\/dev\/scss\/sections\/_home.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_home.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1363,6 +1649,58 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/index\/_index-stats.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/dev\/scss\/sections\/privacy\/_privacy.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/privacy\/_privacy.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/dev\/scss\/sections\/project-detail\/_project-detail-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/project-detail\/_project-detail-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/dev\/scss\/sections\/project-detail\/_project-detail-hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/project-detail\/_project-detail-hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/dev\/scss\/sections\/projects\/_projects-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/projects\/_projects-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0

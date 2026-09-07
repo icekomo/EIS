@@ -4,7 +4,6 @@
 @use "../../helpers";
 
 #index-projects {
-    border: 1px solid red;
     background-color: var(--light-grey);
 
     @include helpers.xl {
@@ -74,6 +73,7 @@
             }
 
             .index-project-content {
+
                 h3 {
                     color: var(--dark-green);
                     font-weight: 550;

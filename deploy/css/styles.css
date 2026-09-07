@@ -1157,7 +1157,6 @@ footer #footer-content #bottom div a:visited a:active {
     Index - Projects
 ============= */
 #index-projects {
-  border: 1px solid red;
   background-color: var(--light-grey);
 }
 @media (min-width: 1200px) {
@@ -2300,4 +2299,79 @@ footer #footer-content #bottom div a:visited a:active {
 }
 #project-detail-container #project-detail-content #project-callouts #results a:hover {
   background-color: var(--dark-green);
+}
+
+/* =============
+    Privacy
+============= */
+#privacy {
+  background-color: var(--light-grey);
+  display: grid;
+  grid-template-columns: 8px auto 8px;
+  grid-template-areas: ". privacy .";
+  padding-top: 120px;
+}
+@media (min-width: 768px) {
+  #privacy {
+    padding-top: 150px;
+  }
+}
+@media (min-width: 992px) {
+  #privacy {
+    padding-top: 200px;
+  }
+}
+@media (min-width: 1200px) {
+  #privacy {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#privacy #privacy-content {
+  grid-area: privacy;
+}
+#privacy #privacy-content #p-header h1 {
+  margin-bottom: 8px;
+}
+#privacy #privacy-content #p-header h3 {
+  margin-bottom: 8px;
+}
+#privacy #privacy-content #p-header p {
+  margin-bottom: 8px;
+}
+#privacy #privacy-content article {
+  margin-bottom: 24px;
+}
+#privacy #privacy-content article h2 {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+#privacy #privacy-content article h3 {
+  font-size: 1.125rem;
+  margin-bottom: 8px;
+}
+#privacy #privacy-content article ul {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+#privacy #privacy-content article ul li {
+  list-style: disc;
+  margin-bottom: 10px;
+}
+#privacy #privacy-content article p {
+  margin-bottom: 20px;
+}
+#privacy #privacy-content article address {
+  margin-bottom: 20px;
+}
+#privacy #privacy-content article div {
+  display: flex;
+}
+#privacy #privacy-content article div p {
+  margin-right: 8px;
+}
+#privacy #privacy-content article div a:link, #privacy #privacy-content article div a:visited {
+  color: var(--green);
+}
+#privacy #privacy-content article div a:link:hover, #privacy #privacy-content article div a:link:active, #privacy #privacy-content article div a:visited:hover, #privacy #privacy-content article div a:visited:active {
+  color: var(--black);
 }
