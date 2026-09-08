@@ -317,6 +317,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/og-preview.jpg" : {
+      "ft" : 16384,
+      "iS" : 143900,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/og-preview.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/og-preview.png" : {
+      "ft" : 32768,
+      "iS" : 383175,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/og-preview.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/project-detail\/project-1\/challenge-1.jpg" : {
       "ft" : 16384,
       "iS" : 132089,
@@ -720,6 +746,14 @@
       "oAP" : "\/deploy\/services.html",
       "oF" : 0
     },
+    "\/deploy\/terms.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/terms.html",
+      "oF" : 0
+    },
     "\/dev\/about.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1104,6 +1138,14 @@
       "oAP" : "\/dev\/global\/schema.html",
       "oF" : 0
     },
+    "\/dev\/global\/terms-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/terms.html",
+      "oF" : 3
+    },
     "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1296,37 +1338,21 @@
       "oAP" : "\/deploy\/privacy.html",
       "oF" : 2
     },
-    "\/dev\/project-detail.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/project-detail.html",
-      "oF" : 0
-    },
     "\/dev\/project-detail.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/project-detail.html",
-      "oF" : 0
-    },
-    "\/dev\/projects.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/projects.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/project-detail.html",
+      "oF" : 2
     },
     "\/dev\/projects.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/projects.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/projects.html",
+      "oF" : 2
     },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
@@ -1744,6 +1770,19 @@
       "oS" : 0,
       "pg" : 0
     },
+    "\/dev\/scss\/sections\/terms\/_terms.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/terms\/_terms.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1763,6 +1802,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/services.html",
+      "oF" : 2
+    },
+    "\/dev\/terms.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/terms.html",
       "oF" : 2
     },
     "\/favicon\/apple-touch-icon.png" : {

@@ -1,0 +1,89 @@
+/* =============
+    Terms
+============= */
+@use "../../helpers";
+
+#terms{
+    background-color: var(--light-grey);
+    display: grid;
+    grid-template-columns: 8px auto 8px;
+    grid-template-areas: ". privacy .";
+    padding-top: 120px;
+
+    @include helpers.md{
+        padding-top: 150px;
+    }
+
+    @include helpers.lg{
+        padding-top: 200px;
+    }
+
+    @include helpers.xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
+    #terms-content{
+        grid-area: privacy;
+
+        #t-header{
+            h1{
+                margin-bottom: 8px;
+            }
+
+            h3{
+                margin-bottom: 8px;
+            }
+
+            p{
+                margin-bottom: 8px;
+            }
+        }
+
+        article{
+            margin-bottom: 24px;
+
+            h2{
+                font-size: helpers.rem-calc(20);
+                margin-bottom: 8px;
+            }
+
+            h3{
+                font-size: helpers.rem-calc(18);
+                margin-bottom: 8px;
+            }
+
+            ul{
+                margin-left: 40px;
+                margin-bottom: 20px;
+                li{
+                    list-style: disc;
+                    margin-bottom: 10px;
+                }
+            }
+            p{
+                margin-bottom: 20px;
+            }
+
+            address{
+                margin-bottom: 20px;
+            }
+
+            div{
+                display: flex;
+
+                p{
+                    margin-right: 8px;
+                }
+
+                a:link, a:visited{
+                    color: var(--green);
+
+                    &:hover, &:active{
+                         color: var(--black);
+                    }
+                }
+            }
+        }
+    }
+
+}
