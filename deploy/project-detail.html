@@ -34,7 +34,7 @@
                                         src="https://kit.fontawesome.com/3c79b583ac.js"
                                         crossorigin="anonymous"
                                     ></script>
-                                
+                                    <link rel="stylesheet" href="css/glightbox.min.css">
                                     <link rel="stylesheet" href="css/styles.css" />
                                 
                                     <!-- Primary Meta Tags -->
@@ -94,34 +94,34 @@
                         <a href="projects.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i>BACK TO PROJECTS</a>
             
                      <div class="details">
-                        <h4 class="green-pill">OIL & GAS</h4>
-                        <h4 class="year">COMPLETED JUNE 2023</h4>
+                        <h4 class="green-pill" id="project-category"></h4>
+                        <h4 class="year" id="project-date"></h4>
                     </div>
             
-                    <h1 id="project-title">Mid-Continent Refinery Upgrade</h1>
-                    <p id="project-description">A critical mechanical overhaul and process piping installation for one of the region's largest refinery facilities, completed ahead of schedule with zero safety incidents.</p>
+                    <h1 id="project-title"></h1>
+                    <p id="project-description"></p>
             
                     <div id="divide-line"></div>
             
                     <ul>
                         <li>
                             <h5>CLIENT</h5>
-                            <h4 id="client-name">PetroCorp Industries</h4>
+                            <h4 id="client-name"></h4>
                         </li>
             
                         <li>
                             <h5>LOCATION</h5>
-                            <h4 id="client-location">Tulsa, Oklahoma</h4>
+                            <h4 id="client-location"></h4>
                         </li>
             
                         <li>
                             <h5>SERVICE</h5>
-                            <h4 id="project-type">Piping & Maintenance</h4>
+                            <h4 id="project-type"></h4>
                         </li>
             
                         <li>
                             <h5>DURATION</h5>
-                            <h4 id="project-timeframe">8 Months</h4>
+                            <h4 id="project-timeframe"></h4>
                         </li>
                     </ul>
                     </div>
@@ -129,78 +129,72 @@
                     <div id="project-hero-right">
             
                     </div>
-                    
+            
             
                 </div>
-            </div>  
-         <div id="project-detail-container" class="content-padding">
-                         <div id="project-detail-content">
-                             <div id="project-details">
-                                 
-                                 <section id="overview">
-                                     <h2>Project Overview</h2>
-                                     <p>The Mid-Continent Refinery Upgrade was a flagship project for Elite Industrial Services, involving the modernization of the plant's main distillation unit and the installation of over 5,000 linear feet of high-pressure process piping. As a critical facility for regional fuel production, minimizing downtime was a primary objective.
-                                     </p>
-                                 </section>
-                     
-                                 <section id="challenge">
-                                     <h3>The Challenge</h3>
-                                     <p>The Mid-Continent Refinery Upgrade was a flagship project for Elite Industrial Services, involving the modernization of the plant's main distillation unit and the installation of over 5,000 linear feet of high-pressure process piping. As a critical facility for regional fuel production, minimizing downtime was a primary objective.</p>
-                                     <ul>
-                                         <li id="challenge-1"></li>
-                                         <li id="challenge-2"></li>
-                                     </ul>
-                                 </section>
-                     
-                                 <section id="solution">
-                                     <h3>Our Solution</h3>
-                                     <p>
-                                     Elite Industrial Services implemented an off-site modular fabrication strategy. By fabricating major piping spools and equipment skids in our controlled facility, we reduced on-site labor requirements by 40% and significantly mitigated safety risks.</p>
-                                     <ul>
-                                         <li><i class="fa-solid fa-hexagon-check"></i>Advanced 3D laser scanning for precise field measurements.</li>
-                                         <li><i class="fa-solid fa-hexagon-check"></i>Implementation of a dedicated on-site safety coordinator.</li>
-                                         <li><i class="fa-solid fa-hexagon-check"></i>Night-shift mobilization for critical heavy lifts during low-traffic periods.</li>
-                                     </ul>
-                                 </section>
-                     
-                                 <section id="result">
-                                     <h3>The Result</h3>
-                                     <p>The refinery upgrade resulted in a 12% increase in throughput capacity for the facility and a significant reduction in emissions. The client reported that the integration of the new systems was seamless, with the commissioning phase completed in record time.</p>
-                                 </section>
-                     
-                                 <section id="gallery">
-                                     <h3>Project Gallery</h3>
-                                     <ul>
-                                         <li id="gallery-1"></li>
-                                         <li id="gallery-2"></li>
-                                         <li id="gallery-3"></li>
-                                         <li id="gallery-4"></li>
-                                         <li id="gallery-5"></li>
-                                         <li id="gallery-6"></li>
-                                     </ul>
-                     
-                                      <a href="projects.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i>BACK TO PROJECTS</a>
-                     
-                                 </section>
-                             </div>
-                     
-                             <div id="project-callouts">
-                                 <div id="achievements">
-                                     <h4>Key Achievements</h4>
-                                     <ul>
-                                         <li><i class="fa-solid fa-hexagon-check"></i>Zero Safety Incidents recorded over 45,000 man-hours.</li>
-                                         <li><i class="fa-solid fa-hexagon-check"></i>2 Weeks Ahead of the original delivery schedule.</li>
-                                         <li><i class="fa-solid fa-hexagon-check"></i>15% Cost Savings through efficient modular fabrication.</li>
-                                     </ul>
-                                 </div>  
-                                 <div id="results">
-                                     <h4>Need Similar Results?</h4>
-                                     <p>Our team specializes in complex industrial projects that require precision and a safety-first mindset.</p>
-                                     <a href="contact.html">START A CONSULTATION</a>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
+            </div>
+            
+    <div id="project-detail-container" class="content-padding">
+                    <div id="project-detail-content">
+                        <div id="project-details">
+                
+                            <section id="overview">
+                                <h2>Project Overview</h2>
+                                <p id="overview-text"></p>
+                            </section>
+                
+                            <section id="challenge">
+                                <h3>The Challenge</h3>
+                                <p id="challenge-text"></p>
+                                <ul>
+                                    <li id="challenge-1"></li>
+                                    <li id="challenge-2"></li>
+                                </ul>
+                            </section>
+                
+                            <section id="solution">
+                                <h3>Our Solution</h3>
+                                <p id="solution-text"></p>
+                                <ul id="solution-list">
+                                </ul>
+                            </section>
+                
+                            <section id="result">
+                                <h3>The Result</h3>
+                                <p id="result-text"></p>
+                            </section>
+                
+                            <section id="gallery">
+                                <h3>Project Gallery</h3>
+                                <ul>
+                                    <li id="gallery-1"></li>
+                                    <li id="gallery-2"></li>
+                                    <li id="gallery-3"></li>
+                                    <li id="gallery-4"></li>
+                                    <li id="gallery-5"></li>
+                                    <li id="gallery-6"></li>
+                                </ul>
+                
+                                 <a href="projects.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i>BACK TO PROJECTS</a>
+                
+                            </section>
+                        </div>
+                
+                        <div id="project-callouts">
+                            <div id="achievements">
+                                <h4>Key Achievements</h4>
+                                <ul id="achievements-list">
+                                </ul>
+                            </div>
+                            <div id="results">
+                                <h4>Need Similar Results?</h4>
+                                <p>Our team specializes in complex industrial projects that require precision and a safety-first mindset.</p>
+                                <a href="contact.html">START A CONSULTATION</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
 
     <footer class="content-padding">
         <div id="footer-content">
@@ -237,7 +231,8 @@
             </div>
         </div>
     </footer>
-
+     
+    <script src="js/glightbox.min.js"></script>
     <script src="js/scripts-min.js"></script>
     <script type="application/ld+json">
     {

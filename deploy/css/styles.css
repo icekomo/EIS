@@ -1994,6 +1994,10 @@ footer #footer-content #bottom div a:visited a:active {
     gap: 48px;
   }
 }
+#project-content #project-container ul li {
+  display: flex;
+  flex-direction: column;
+}
 #project-content #project-container ul li .project-hero {
   background-size: cover;
   height: 300px;
@@ -2018,12 +2022,19 @@ footer #footer-content #bottom div a:visited a:active {
 #project-content #project-container ul li p {
   color: var(--dark-grey);
 }
+#project-content #project-container ul li .card-footer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 #project-content #project-container ul li .project-btn {
   margin-top: 24px;
   background-color: var(--green);
   color: var(--white);
   padding: 12px 24px;
   border-radius: 36px;
+  align-self: flex-start;
 }
 #project-content #project-container ul li .project-btn:hover {
   background-color: var(--dark-green);
@@ -2194,12 +2205,6 @@ footer #footer-content #bottom div a:visited a:active {
     height: 300px;
   }
 }
-#project-detail-container #project-detail-content #project-details #challenge ul #challenge-1 {
-  background-image: url("../img/project-detail/project-1/challenge-1.jpg");
-}
-#project-detail-container #project-detail-content #project-details #challenge ul #challenge-2 {
-  background-image: url("../img/project-detail/project-1/challenge-2.jpg");
-}
 #project-detail-container #project-detail-content #project-details #solution ul {
   margin-top: 24px;
 }
@@ -2224,28 +2229,30 @@ footer #footer-content #bottom div a:visited a:active {
   }
 }
 #project-detail-container #project-detail-content #project-details #gallery ul li {
+  position: relative;
+  overflow: hidden;
   height: 150px;
   background-position: center;
   background-size: cover;
   border-radius: 12px;
 }
-#project-detail-container #project-detail-content #project-details #gallery ul #gallery-1 {
-  background-image: url("../img/project-detail/project-1/gallery-1.jpg");
+#project-detail-container #project-detail-content #project-details #gallery ul li a.glightbox {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
 }
-#project-detail-container #project-detail-content #project-details #gallery ul #gallery-2 {
-  background-image: url("../img/project-detail/project-1/gallery-2.jpg");
+#project-detail-container #project-detail-content #project-details #gallery ul li a.glightbox i {
+  color: var(--white);
+  font-size: 1.25rem;
 }
-#project-detail-container #project-detail-content #project-details #gallery ul #gallery-3 {
-  background-image: url("../img/project-detail/project-1/gallery-3.jpg");
-}
-#project-detail-container #project-detail-content #project-details #gallery ul #gallery-4 {
-  background-image: url("../img/project-detail/project-1/gallery-4.jpg");
-}
-#project-detail-container #project-detail-content #project-details #gallery ul #gallery-5 {
-  background-image: url("../img/project-detail/project-1/gallery-5.jpg");
-}
-#project-detail-container #project-detail-content #project-details #gallery ul #gallery-6 {
-  background-image: url("../img/project-detail/project-1/gallery-6.jpg");
+#project-detail-container #project-detail-content #project-details #gallery ul li a.glightbox:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.35);
 }
 #project-detail-container #project-detail-content #project-callouts {
   display: flex;

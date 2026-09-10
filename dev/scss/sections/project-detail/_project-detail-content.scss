@@ -69,14 +69,6 @@
                             height: 300px;
                         }
                     }
-
-                    #challenge-1{
-                        background-image: url("../img/project-detail/project-1/challenge-1.jpg");
-                    }
-
-                    #challenge-2{
-                         background-image: url("../img/project-detail/project-1/challenge-2.jpg");
-                    }
                 }
             }
 
@@ -106,35 +98,39 @@
                     @include helpers.lg{
                         grid-template-columns: repeat(3, 1fr);
                     }
+
                     li{
+                        position: relative;
+                        overflow: hidden;
                         height: 150px;
                         background-position: center;
                         background-size: cover;
                         border-radius: 12px;
-                    }
 
-                    #gallery-1{
-                        background-image: url("../img/project-detail/project-1/gallery-1.jpg");
-                    }
+                        // Full-tile clickable overlay injected by
+                        // js/modules/project-detail.js (setGalleryTile).
+                        // Opens GLightbox on click; the fa-magnifying-glass
+                        // icon fades in on hover as a "this opens" hint.
+                        a.glightbox{
+                            position: absolute;
+                            inset: 0;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: rgba(0, 0, 0, 0);
+                            opacity: 0;
+                            transition: opacity 0.2s ease, background-color 0.2s ease;
 
-                    #gallery-2{
-                        background-image: url("../img/project-detail/project-1/gallery-2.jpg");
-                    }
+                            i{
+                                color: var(--white);
+                                font-size: helpers.rem-calc(20);
+                            }
 
-                    #gallery-3{
-                        background-image: url("../img/project-detail/project-1/gallery-3.jpg");
-                    }
-
-                    #gallery-4{
-                        background-image: url("../img/project-detail/project-1/gallery-4.jpg");
-                    }
-
-                    #gallery-5{
-                        background-image: url("../img/project-detail/project-1/gallery-5.jpg");
-                    }
-
-                    #gallery-6{
-                        background-image: url("../img/project-detail/project-1/gallery-6.jpg");
+                            &:hover{
+                                opacity: 1;
+                                background-color: rgba(0, 0, 0, 0.35);
+                            }
+                        }
                     }
                 }
             }

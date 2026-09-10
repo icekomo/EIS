@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PROJECTS DATA FILE
+  ===================
+  One <project> node per project. The "id" attribute is the URL slug —
+  it's what goes in the link from the projects grid to the detail page:
+    project-detail.html?project=THAT-ID
+
+  To add a new project:
+    1. Copy an entire <project>...</project> block.
+    2. Give it a unique id (lowercase, hyphens, no spaces).
+    3. Fill in every field below.
+  Both projects.html (the grid) and project-detail.html (the template)
+  will pick it up automatically — no HTML or JS changes needed.
+
+  Placeholder note: projects "specialty-chemical-plant-expansion" through
+  "desert-sun-solar-array-installation" have draft/placeholder copy and
+  placeholder image paths (they didn't have detail content before this
+  file existed). Swap in real copy + real image paths whenever you're
+  ready. "mid-continent-refinery-upgrade" mirrors the real content that
+  was already hardcoded in project-detail.html.
+-->
+<projects>
+
+    <project id="mid-continent-refinery-upgrade">
+        <category>OIL &amp; GAS</category>
+        <year>2026</year>
+        <dateCompleted>COMPLETED JUNE 2023</dateCompleted>
+        <title>Mid-Continent Refinery Upgrade</title>
+        <summary>Complete mechanical overhaul and piping installation for a major refinery expansion project.</summary>
+        <description>A critical mechanical overhaul and process piping installation for one of the region's largest refinery facilities, completed ahead of schedule with zero safety incidents.</description>
+        <client>PetroCorp Industries</client>
+        <location>Tulsa, Oklahoma</location>
+        <service>Piping &amp; Maintenance</service>
+        <duration>8 Months</duration>
+        <cardImage>img/projects/project-1.jpg</cardImage>
+        <heroImage>img/project-detail/project-1/project-hero.jpg</heroImage>
+        <overview>The Mid-Continent Refinery Upgrade was a flagship project for Elite Industrial Services, involving the modernization of the plant's main distillation unit and the installation of over 5,000 linear feet of high-pressure process piping. As a critical facility for regional fuel production, minimizing downtime was a primary objective.</overview>
+        <challenge>
+            <p>The refinery needed to modernize its main distillation unit and install thousands of feet of high-pressure process piping without taking the facility fully offline, all while meeting a compressed regulatory inspection window.</p>
+            <image>img/project-detail/project-1/challenge-1.jpg</image>
+            <image>img/project-detail/project-1/challenge-2.jpg</image>
+        </challenge>
+        <solution>
+            <p>Elite Industrial Services implemented an off-site modular fabrication strategy. By fabricating major piping spools and equipment skids in our controlled facility, we reduced on-site labor requirements by 40% and significantly mitigated safety risks.</p>
+            <item>Advanced 3D laser scanning for precise field measurements.</item>
+            <item>Implementation of a dedicated on-site safety coordinator.</item>
+            <item>Night-shift mobilization for critical heavy lifts during low-traffic periods.</item>
+        </solution>
+        <result>
+            <p>The refinery upgrade resulted in a 12% increase in throughput capacity for the facility and a significant reduction in emissions. The client reported that the integration of the new systems was seamless, with the commissioning phase completed in record time.</p>
+        </result>
+        <gallery>
+            <image>img/project-detail/project-1/gallery-1.jpg</image>
+            <image>img/project-detail/project-1/gallery-2.jpg</image>
+            <image>img/project-detail/project-1/gallery-3.jpg</image>
+            <image>img/project-detail/project-1/gallery-4.jpg</image>
+            <image>img/project-detail/project-1/gallery-5.jpg</image>
+            <image>img/project-detail/project-1/gallery-6.jpg</image>
+        </gallery>
+        <achievements>
+            <item>Zero Safety Incidents recorded over 45,000 man-hours.</item>
+            <item>2 Weeks Ahead of the original delivery schedule.</item>
+            <item>15% Cost Savings through efficient modular fabrication.</item>
+        </achievements>
+        <seo>
+            <title>Mid-Continent Refinery Upgrade | Elite Industrial Services</title>
+            <description>See how Elite Industrial Services overhauled a major refinery's distillation unit and installed 5,000+ ft of process piping with zero safety incidents.</description>
+            <keywords>refinery piping installation, industrial mechanical overhaul, oil and gas contractor, process piping installation</keywords>
+            <canonical>https://www.eliteindustrialservices.com/project-detail.html?project=mid-continent-refinery-upgrade</canonical>
+            <ogTitle>Mid-Continent Refinery Upgrade | Elite Industrial Services</ogTitle>
+            <ogDescription>A critical mechanical overhaul and process piping installation completed ahead of schedule with zero safety incidents.</ogDescription>
+            <ogImage>https://www.eliteindustrialservices.com/img/project-detail/mid-continent-refinery-upgrade/hero.jpg</ogImage>
+            <twitterTitle>Mid-Continent Refinery Upgrade | Elite Industrial Services</twitterTitle>
+            <twitterDescription>A critical mechanical overhaul and process piping installation completed ahead of schedule with zero safety incidents.</twitterDescription>
+            <twitterImage>https://www.eliteindustrialservices.com/img/project-detail/mid-continent-refinery-upgrade/hero.jpg</twitterImage>
+        </seo>
+    </project>
+
+    <project id="specialty-chemical-plant-expansion">
+        <category>CHEMICAL</category>
+        <year>2025</year>
+        <dateCompleted>COMPLETED NOVEMBER 2025</dateCompleted>
+        <title>Specialty Chemical Plant Expansion</title>
+        <summary>Modular fabrication and site installation of specialized chemical reactors and process piping.</summary>
+        <description>PLACEHOLDER: A one-to-two sentence overview of this project for the page hero, written the way the refinery project's description reads.</description>
+        <client>PLACEHOLDER Client Name</client>
+        <location>PLACEHOLDER City, State</location>
+        <service>Reactor &amp; Process Piping Installation</service>
+        <duration>PLACEHOLDER e.g. 6 Months</duration>
+        <cardImage>img/projects/project-2.jpg</cardImage>
+        <heroImage>img/project-detail/specialty-chemical-plant-expansion/hero.jpg</heroImage>
+        <overview>PLACEHOLDER: 2-4 sentence project overview for the "Project Overview" section.</overview>
+        <challenge>
+            <p>PLACEHOLDER: What made this project difficult (site constraints, timeline, safety, regulatory, etc.).</p>
+            <image>img/project-detail/specialty-chemical-plant-expansion/challenge-1.jpg</image>
+            <image>img/project-detail/specialty-chemical-plant-expansion/challenge-2.jpg</image>
+        </challenge>
+        <solution>
+            <p>PLACEHOLDER: The approach EIS took to solve the challenge.</p>
+            <item>PLACEHOLDER solution highlight 1</item>
+            <item>PLACEHOLDER solution highlight 2</item>
+            <item>PLACEHOLDER solution highlight 3</item>
+        </solution>
+        <result>
+            <p>PLACEHOLDER: The measurable outcome / client-facing result.</p>
+        </result>
+        <gallery>
+            <image>img/project-detail/specialty-chemical-plant-expansion/gallery-1.jpg</image>
+            <image>img/project-detail/specialty-chemical-plant-expansion/gallery-2.jpg</image>
+            <image>img/project-detail/specialty-chemical-plant-expansion/gallery-3.jpg</image>
+        </gallery>
+        <achievements>
+            <item>PLACEHOLDER achievement 1</item>
+            <item>PLACEHOLDER achievement 2</item>
+            <item>PLACEHOLDER achievement 3</item>
+        </achievements>
+        <seo>
+            <title>Specialty Chemical Plant Expansion | Elite Industrial Services</title>
+            <description>PLACEHOLDER meta description for search results (~150-160 characters).</description>
+            <keywords>chemical plant construction, reactor installation, process piping contractor</keywords>
+            <canonical>https://www.eliteindustrialservices.com/project-detail.html?project=specialty-chemical-plant-expansion</canonical>
+            <ogTitle>Specialty Chemical Plant Expansion | Elite Industrial Services</ogTitle>
+            <ogDescription>PLACEHOLDER Open Graph description for social shares.</ogDescription>
+            <ogImage>https://www.eliteindustrialservices.com/img/project-detail/specialty-chemical-plant-expansion/hero.jpg</ogImage>
+            <twitterTitle>Specialty Chemical Plant Expansion | Elite Industrial Services</twitterTitle>
+            <twitterDescription>PLACEHOLDER Twitter card description.</twitterDescription>
+            <twitterImage>https://www.eliteindustrialservices.com/img/project-detail/specialty-chemical-plant-expansion/hero.jpg</twitterImage>
+        </seo>
+    </project>
+
+    <project id="base-load-power-plant-maintenance">
+        <category>CHEMICAL</category>
+        <year>2025</year>
+        <dateCompleted>COMPLETED SEPTEMBER 2025</dateCompleted>
+        <title>Base Load Power Plant Maintenance</title>
+        <summary>Annual maintenance shutdown services including turbine inspection and boiler repairs.</summary>
+        <description>PLACEHOLDER: A one-to-two sentence overview of this project for the page hero.</description>
+        <client>PLACEHOLDER Client Name</client>
+        <location>PLACEHOLDER City, State</location>
+        <service>Turbine Inspection &amp; Boiler Repair</service>
+        <duration>PLACEHOLDER e.g. 3 Weeks</duration>
+        <cardImage>img/projects/project-3.jpg</cardImage>
+        <heroImage>img/project-detail/base-load-power-plant-maintenance/hero.jpg</heroImage>
+        <overview>PLACEHOLDER: 2-4 sentence project overview for the "Project Overview" section.</overview>
+        <challenge>
+            <p>PLACEHOLDER: What made this shutdown/maintenance window difficult.</p>
+            <image>img/project-detail/base-load-power-plant-maintenance/challenge-1.jpg</image>
+            <image>img/project-detail/base-load-power-plant-maintenance/challenge-2.jpg</image>
+        </challenge>
+        <solution>
+            <p>PLACEHOLDER: The approach EIS took to solve the challenge.</p>
+            <item>PLACEHOLDER solution highlight 1</item>
+            <item>PLACEHOLDER solution highlight 2</item>
+            <item>PLACEHOLDER solution highlight 3</item>
+        </solution>
+        <result>
+            <p>PLACEHOLDER: The measurable outcome / client-facing result.</p>
+        </result>
+        <gallery>
+            <image>img/project-detail/base-load-power-plant-maintenance/gallery-1.jpg</image>
+            <image>img/project-detail/base-load-power-plant-maintenance/gallery-2.jpg</image>
+            <image>img/project-detail/base-load-power-plant-maintenance/gallery-3.jpg</image>
+        </gallery>
+        <achievements>
+            <item>PLACEHOLDER achievement 1</item>
+            <item>PLACEHOLDER achievement 2</item>
+            <item>PLACEHOLDER achievement 3</item>
+        </achievements>
+        <seo>
+            <title>Base Load Power Plant Maintenance | Elite Industrial Services</title>
+            <description>PLACEHOLDER meta description for search results (~150-160 characters).</description>
+            <keywords>power plant maintenance, turbine inspection, boiler repair contractor</keywords>
+            <canonical>https://www.eliteindustrialservices.com/project-detail.html?project=base-load-power-plant-maintenance</canonical>
+            <ogTitle>Base Load Power Plant Maintenance | Elite Industrial Services</ogTitle>
+            <ogDescription>PLACEHOLDER Open Graph description for social shares.</ogDescription>
+            <ogImage>https://www.eliteindustrialservices.com/img/project-detail/base-load-power-plant-maintenance/hero.jpg</ogImage>
+            <twitterTitle>Base Load Power Plant Maintenance | Elite Industrial Services</twitterTitle>
+            <twitterDescription>PLACEHOLDER Twitter card description.</twitterDescription>
+            <twitterImage>https://www.eliteindustrialservices.com/img/project-detail/base-load-power-plant-maintenance/hero.jpg</twitterImage>
+        </seo>
+    </project>
+
+    <project id="municipal-water-treatment-upgrade">
+        <category>INFRASTRUCTURE</category>
+        <year>2026</year>
+        <dateCompleted>COMPLETED FEBRUARY 2026</dateCompleted>
+        <title>Municipal Water Treatment Upgrade</title>
+        <summary>Installation of advanced filtration systems and stainless steel process manifolds.</summary>
+        <description>PLACEHOLDER: A one-to-two sentence overview of this project for the page hero.</description>
+        <client>PLACEHOLDER Client Name</client>
+        <location>PLACEHOLDER City, State</location>
+        <service>Filtration System Installation</service>
+        <duration>PLACEHOLDER e.g. 5 Months</duration>
+        <cardImage>img/projects/project-4.jpg</cardImage>
+        <heroImage>img/project-detail/municipal-water-treatment-upgrade/hero.jpg</heroImage>
+        <overview>PLACEHOLDER: 2-4 sentence project overview for the "Project Overview" section.</overview>
+        <challenge>
+            <p>PLACEHOLDER: What made this project difficult.</p>
+            <image>img/project-detail/municipal-water-treatment-upgrade/challenge-1.jpg</image>
+            <image>img/project-detail/municipal-water-treatment-upgrade/challenge-2.jpg</image>
+        </challenge>
+        <solution>
+            <p>PLACEHOLDER: The approach EIS took to solve the challenge.</p>
+            <item>PLACEHOLDER solution highlight 1</item>
+            <item>PLACEHOLDER solution highlight 2</item>
+            <item>PLACEHOLDER solution highlight 3</item>
+        </solution>
+        <result>
+            <p>PLACEHOLDER: The measurable outcome / client-facing result.</p>
+        </result>
+        <gallery>
+            <image>img/project-detail/municipal-water-treatment-upgrade/gallery-1.jpg</image>
+            <image>img/project-detail/municipal-water-treatment-upgrade/gallery-2.jpg</image>
+            <image>img/project-detail/municipal-water-treatment-upgrade/gallery-3.jpg</image>
+        </gallery>
+        <achievements>
+            <item>PLACEHOLDER achievement 1</item>
+            <item>PLACEHOLDER achievement 2</item>
+            <item>PLACEHOLDER achievement 3</item>
+        </achievements>
+        <seo>
+            <title>Municipal Water Treatment Upgrade | Elite Industrial Services</title>
+            <description>PLACEHOLDER meta description for search results (~150-160 characters).</description>
+            <keywords>water treatment plant upgrade, filtration system installation, municipal infrastructure contractor</keywords>
+            <canonical>https://www.eliteindustrialservices.com/project-detail.html?project=municipal-water-treatment-upgrade</canonical>
+            <ogTitle>Municipal Water Treatment Upgrade | Elite Industrial Services</ogTitle>
+            <ogDescription>PLACEHOLDER Open Graph description for social shares.</ogDescription>
+            <ogImage>https://www.eliteindustrialservices.com/img/project-detail/municipal-water-treatment-upgrade/hero.jpg</ogImage>
+            <twitterTitle>Municipal Water Treatment Upgrade | Elite Industrial Services</twitterTitle>
+            <twitterDescription>PLACEHOLDER Twitter card description.</twitterDescription>
+            <twitterImage>https://www.eliteindustrialservices.com/img/project-detail/municipal-water-treatment-upgrade/hero.jpg</twitterImage>
+        </seo>
+    </project>
+
+    <project id="structural-steel-bridge-components">
+        <category>FABRICATION</category>
+        <year>2026</year>
+        <dateCompleted>COMPLETED APRIL 2026</dateCompleted>
+        <title>Structural Steel Bridge Components</title>
+        <summary>Precision fabrication and delivery of high-load bearing structural steel for regional infrastructure.</summary>
+        <description>PLACEHOLDER: A one-to-two sentence overview of this project for the page hero.</description>
+        <client>PLACEHOLDER Client Name</client>
+        <location>PLACEHOLDER City, State</location>
+        <service>Structural Steel Fabrication</service>
+        <duration>PLACEHOLDER e.g. 4 Months</duration>
+        <cardImage>img/projects/project-5.jpg</cardImage>
+        <heroImage>img/project-detail/structural-steel-bridge-components/hero.jpg</heroImage>
+        <overview>PLACEHOLDER: 2-4 sentence project overview for the "Project Overview" section.</overview>
+        <challenge>
+            <p>PLACEHOLDER: What made this project difficult.</p>
+            <image>img/project-detail/structural-steel-bridge-components/challenge-1.jpg</image>
+            <image>img/project-detail/structural-steel-bridge-components/challenge-2.jpg</image>
+        </challenge>
+        <solution>
+            <p>PLACEHOLDER: The approach EIS took to solve the challenge.</p>
+            <item>PLACEHOLDER solution highlight 1</item>
+            <item>PLACEHOLDER solution highlight 2</item>
+            <item>PLACEHOLDER solution highlight 3</item>
+        </solution>
+        <result>
+            <p>PLACEHOLDER: The measurable outcome / client-facing result.</p>
+        </result>
+        <gallery>
+            <image>img/project-detail/structural-steel-bridge-components/gallery-1.jpg</image>
+            <image>img/project-detail/structural-steel-bridge-components/gallery-2.jpg</image>
+            <image>img/project-detail/structural-steel-bridge-components/gallery-3.jpg</image>
+        </gallery>
+        <achievements>
+            <item>PLACEHOLDER achievement 1</item>
+            <item>PLACEHOLDER achievement 2</item>
+            <item>PLACEHOLDER achievement 3</item>
+        </achievements>
+        <seo>
+            <title>Structural Steel Bridge Components | Elite Industrial Services</title>
+            <description>PLACEHOLDER meta description for search results (~150-160 characters).</description>
+            <keywords>structural steel fabrication, bridge component fabrication, industrial fabrication contractor</keywords>
+            <canonical>https://www.eliteindustrialservices.com/project-detail.html?project=structural-steel-bridge-components</canonical>
+            <ogTitle>Structural Steel Bridge Components | Elite Industrial Services</ogTitle>
+            <ogDescription>PLACEHOLDER Open Graph description for social shares.</ogDescription>
+            <ogImage>https://www.eliteindustrialservices.com/img/project-detail/structural-steel-bridge-components/hero.jpg</ogImage>
+            <twitterTitle>Structural Steel Bridge Components | Elite Industrial Services</twitterTitle>
+            <twitterDescription>PLACEHOLDER Twitter card description.</twitterDescription>
+            <twitterImage>https://www.eliteindustrialservices.com/img/project-detail/structural-steel-bridge-components/hero.jpg</twitterImage>
+        </seo>
+    </project>
+
+    <project id="desert-sun-solar-array-installation">
+        <category>RENEWABLES</category>
+        <year>2025</year>
+        <dateCompleted>COMPLETED AUGUST 2025</dateCompleted>
+        <title>Desert Sun Solar Array Installation</title>
+        <summary>Electrical and mechanical installation for a utility-scale 50MW solar generation facility.</summary>
+        <description>PLACEHOLDER: A one-to-two sentence overview of this project for the page hero.</description>
+        <client>PLACEHOLDER Client Name</client>
+        <location>PLACEHOLDER City, State</location>
+        <service>Solar Array Installation</service>
+        <duration>PLACEHOLDER e.g. 7 Months</duration>
+        <cardImage>img/projects/project-6.jpg</cardImage>
+        <heroImage>img/project-detail/desert-sun-solar-array-installation/hero.jpg</heroImage>
+        <overview>PLACEHOLDER: 2-4 sentence project overview for the "Project Overview" section.</overview>
+        <challenge>
+            <p>PLACEHOLDER: What made this project difficult.</p>
+            <image>img/project-detail/desert-sun-solar-array-installation/challenge-1.jpg</image>
+            <image>img/project-detail/desert-sun-solar-array-installation/challenge-2.jpg</image>
+        </challenge>
+        <solution>
+            <p>PLACEHOLDER: The approach EIS took to solve the challenge.</p>
+            <item>PLACEHOLDER solution highlight 1</item>
+            <item>PLACEHOLDER solution highlight 2</item>
+            <item>PLACEHOLDER solution highlight 3</item>
+        </solution>
+        <result>
+            <p>PLACEHOLDER: The measurable outcome / client-facing result.</p>
+        </result>
+        <gallery>
+            <image>img/project-detail/desert-sun-solar-array-installation/gallery-1.jpg</image>
+            <image>img/project-detail/desert-sun-solar-array-installation/gallery-2.jpg</image>
+            <image>img/project-detail/desert-sun-solar-array-installation/gallery-3.jpg</image>
+        </gallery>
+        <achievements>
+            <item>PLACEHOLDER achievement 1</item>
+            <item>PLACEHOLDER achievement 2</item>
+            <item>PLACEHOLDER achievement 3</item>
+        </achievements>
+        <seo>
+            <title>Desert Sun Solar Array Installation | Elite Industrial Services</title>
+            <description>PLACEHOLDER meta description for search results (~150-160 characters).</description>
+            <keywords>utility scale solar installation, solar array contractor, renewable energy construction</keywords>
+            <canonical>https://www.eliteindustrialservices.com/project-detail.html?project=desert-sun-solar-array-installation</canonical>
+            <ogTitle>Desert Sun Solar Array Installation | Elite Industrial Services</ogTitle>
+            <ogDescription>PLACEHOLDER Open Graph description for social shares.</ogDescription>
+            <ogImage>https://www.eliteindustrialservices.com/img/project-detail/desert-sun-solar-array-installation/hero.jpg</ogImage>
+            <twitterTitle>Desert Sun Solar Array Installation | Elite Industrial Services</twitterTitle>
+            <twitterDescription>PLACEHOLDER Twitter card description.</twitterDescription>
+            <twitterImage>https://www.eliteindustrialservices.com/img/project-detail/desert-sun-solar-array-installation/hero.jpg</twitterImage>
+        </seo>
+    </project>
+
+</projects>

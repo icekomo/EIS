@@ -25,6 +25,18 @@
       "oAP" : "\/deploy\/contact.html",
       "oF" : 0
     },
+    "\/deploy\/css\/glightbox.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/css\/glightbox.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -703,6 +715,17 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
+    "\/deploy\/js\/glightbox.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/glightbox.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -752,6 +775,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/terms.html",
+      "oF" : 0
+    },
+    "\/deploy\/xml\/projects.xml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/xml\/projects.xml",
       "oF" : 0
     },
     "\/dev\/about.kit" : {
@@ -1034,12 +1065,20 @@
       "oAP" : "\/dev\/content\/index\/index-stats.html",
       "oF" : 0
     },
-    "\/dev\/content\/project-detail\/_project-detail-hero.kit" : {
+    "\/dev\/content\/project-detail\/old+\/_project-detail-hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/project-detail\/_project-detail-hero.html",
+      "oAP" : "\/dev\/content\/project-detail\/old+\/_project-detail-hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/project-detail\/old+\/project-detail-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/project-detail\/old+\/project-detail-content.html",
       "oF" : 0
     },
     "\/dev\/content\/project-detail\/project-detail-content.kit" : {
@@ -1048,6 +1087,22 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/project-detail\/project-detail-content.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/project-detail\/project-detail-hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/project-detail\/project-detail-hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/projects\/old+\/project-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/projects\/old+\/project-content.html",
       "oF" : 0
     },
     "\/dev\/content\/projects\/project-content.kit" : {
@@ -1154,6 +1209,17 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
+    "\/dev\/js\/glightbox-setup.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/glightbox-setup-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dev\/js\/gsap-setup.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1161,17 +1227,6 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/gsap-setup-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/js\/modules\/bio-modal.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dev\/js\/modules\/bio-modal-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1187,13 +1242,13 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/js\/modules\/card-flip.js" : {
+    "\/dev\/js\/modules\/contact-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dev\/js\/modules\/card-flip-min.js",
+      "oAP" : "\/dev\/js\/modules\/contact-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1209,24 +1264,13 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/js\/modules\/gears-animation.js" : {
+    "\/dev\/js\/modules\/get-started-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dev\/js\/modules\/gears-animation-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/js\/modules\/gears.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/dev\/js\/modules\/gears-min.js",
+      "oAP" : "\/dev\/js\/modules\/get-started-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1253,13 +1297,24 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/js\/modules\/home-titles.js" : {
+    "\/dev\/js\/modules\/old+\/bio-modal.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dev\/js\/modules\/home-titles-min.js",
+      "oAP" : "\/dev\/js\/modules\/old+\/bio-modal-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/modules\/old+\/card-flip.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/modules\/old+\/card-flip-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1275,13 +1330,112 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/js\/modules\/overview.js" : {
+    "\/dev\/js\/modules\/old+\/gears-animation.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dev\/js\/modules\/overview-min.js",
+      "oAP" : "\/dev\/js\/modules\/old+\/gears-animation-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/modules\/old+\/gears.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/modules\/old+\/gears-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/modules\/old+\/home-titles.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/modules\/old+\/home-titles-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/modules\/old+\/overview.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/modules\/old+\/overview-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/modules\/old+\/slideshow.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/modules\/old+\/slideshow-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/modules\/old+\/sub-modular-animation.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/modules\/old+\/sub-modular-animation-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/modules\/project-detail.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/modules\/project-detail-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/modules\/project-loader.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/modules\/project-loader-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/modules\/projects-list.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/modules\/projects-list-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/modules\/scrollTrigger-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/modules\/scrollTrigger-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1293,28 +1447,6 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/dev\/js\/modules\/scrollTrigger-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/js\/modules\/slideshow.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dev\/js\/modules\/slideshow-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/js\/modules\/sub-modular-animation.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/dev\/js\/modules\/sub-modular-animation-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1894,6 +2026,38 @@
       "ft" : 65536,
       "oA" : 2,
       "oAP" : "\/node_modules",
+      "oF" : 0
+    },
+    "\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-lock-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/Project Template\/~$w-Project-Intake-Form.docx" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Project Template\/~$w-Project-Intake-Form.docx",
+      "oF" : 0
+    },
+    "\/Project Template\/New-Project-Intake-Form.docx" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Project Template\/New-Project-Intake-Form.docx",
       "oF" : 0
     }
   },

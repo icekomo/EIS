@@ -30,6 +30,14 @@
             }
 
             li{
+                // Grid items in the same row already stretch to match the
+                // tallest card's height (default align-items: stretch), so
+                // turning each li into a column flex container lets us pin
+                // the footer/button to the bottom of that height instead of
+                // wherever the title + summary happen to end.
+                display: flex;
+                flex-direction: column;
+
                 .project-hero{
                     background-size: cover;
                     height: 300px;
@@ -77,12 +85,26 @@
                     color: var(--dark-grey);
                 }
 
+                // Footer wrapper around the "View Project" button (see
+                // js/modules/projects-list.js). flex: 1 lets it soak up
+                // whatever vertical space is left in the card after the
+                // hero/title/summary, and justify-content: flex-end pins
+                // the button to the bottom of that space; align-items'
+                // default (flex-start) keeps it flush left.
+                .card-footer{
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                }
+
                 .project-btn{
                     margin-top: 24px;
                     background-color: var(--green);
                     color: var(--white);
                     padding: 12px 24px;
                     border-radius: 36px;
+                    align-self: flex-start;
 
                     &:hover{
                         background-color: var(--dark-green);
