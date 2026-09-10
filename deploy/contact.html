@@ -154,15 +154,15 @@
                      <div id="contact-right">
                          <h2>SEND A MESSAGE</h2>
              
-                         <form>
+                         <form id="contactForm" action="https://formspree.io/f/xaeyvoze" method="POST">
                              <div class="row">
                                  <div class="field">
                                      <label for="fullName">Full Name</label>
-                                     <input type="text" id="fullName" name="fullName" placeholder="John Doe">
+                                     <input type="text" id="fullName" name="fullName" placeholder="John Doe" required>
                                  </div>
                                  <div class="field">
                                      <label for="email">Email Address</label>
-                                     <input type="email" id="email" name="email" placeholder="john@company.com">
+                                     <input type="email" id="email" name="email" placeholder="john@company.com" required>
                                  </div>
                              </div>
                              <div class="row">
@@ -174,23 +174,79 @@
                                      <label for="serviceType">Service Type</label>
                                      <select id="serviceType" name="serviceType">
                                          <option>Maintenance</option>
-                                         <option>Installation</option>
-                                         <option>Repair</option>
-                                         <option>Consultation</option>
+                                         <option>Removable Blankets</option>
+                                         <option>Thermal Coatings</option>
                                      </select>
                                  </div>
                              </div>
                              <div class="full">
                                  <label for="projectBrief">Project Brief</label>
                                  <textarea id="projectBrief" name="projectBrief"
-                                     placeholder="Tell us about your project requirements..."></textarea>
+                                     placeholder="Tell us about your project requirements..." required></textarea>
                              </div>
-                             <button type="submit">Send Inquiry</button>
+             
+                             <!-- Sets the email subject line for submissions -->
+                             <input type="hidden" name="_subject" value="New Contact Form Submission">
+             
+                             <!-- Honeypot field: keeps spam bots from submitting the form. Leave this hidden. -->
+                             <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+             
+                             <div id="formError" class="form-error" style="display:none;"></div>
+             
+                             <button type="submit" id="contactSubmitBtn">Send Inquiry</button>
                          </form>
+             
+                         <div id="formSuccess" class="form-success" style="display:none;">
+                             <h3>Thank you!</h3>
+                             <p>Your message has been received. We'll be in touch soon.</p>
+                         </div>
              
                      </div>
                  </div>
              </div>
+             
+             <script>
+             (function () {
+                 var form = document.getElementById('contactForm');
+                 var successBox = document.getElementById('formSuccess');
+                 var errorBox = document.getElementById('formError');
+                 var submitBtn = document.getElementById('contactSubmitBtn');
+             
+                 if (!form) return;
+             
+                 form.addEventListener('submit', function (event) {
+                     event.preventDefault();
+             
+                     errorBox.style.display = 'none';
+                     submitBtn.disabled = true;
+                     submitBtn.textContent = 'Sending...';
+             
+                     fetch(form.action, {
+                         method: 'POST',
+                         body: new FormData(form),
+                         headers: { 'Accept': 'application/json' }
+                     }).then(function (response) {
+                         if (response.ok) {
+                             form.style.display = 'none';
+                             successBox.style.display = 'block';
+                         } else {
+                             return response.json().then(function (data) {
+                                 var message = (data && data.errors)
+                                     ? data.errors.map(function (e) { return e.message; }).join(', ')
+                                     : 'Oops! There was a problem submitting your form.';
+                                 throw new Error(message);
+                             });
+                         }
+                     }).catch(function (error) {
+                         errorBox.textContent = error.message || 'Oops! There was a problem submitting your form.';
+                         errorBox.style.display = 'block';
+                     }).finally(function () {
+                         submitBtn.disabled = false;
+                         submitBtn.textContent = 'Send Inquiry';
+                     });
+                 });
+             })();
+             </script>
 
     <footer class="content-padding">
         <div id="footer-content">

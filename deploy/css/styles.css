@@ -571,6 +571,8 @@ a {
 
 .active-page a {
   color: var(--green) !important;
+  background-color: var(--charcoal);
+  border-radius: 12px;
 }
 
 .back-btn {
@@ -620,7 +622,7 @@ a {
 #mainNav ul li a:link, #mainNav ul li a:visited {
   font-weight: 550;
   display: inline-block;
-  padding: 24px 0;
+  padding: 24px 24px;
   color: var(--blue);
   transition: 0.25s;
   height: 100%;
@@ -642,7 +644,7 @@ a {
 }
 #mainNav ul li #contact-btn {
   background-color: var(--green);
-  color: var(--white);
+  color: var(--black);
   border: none;
   border-radius: 48px;
   padding: 24px;
@@ -958,7 +960,7 @@ footer #footer-content #bottom div a:visited a:active {
 }
 #index-hero #hero-content #hero-buttons #contact-btn {
   background: var(--green);
-  color: var(--white);
+  color: var(--black);
 }
 #index-hero #hero-content #hero-buttons #contact-btn:hover {
   background-color: var(--dark-green);
@@ -2031,31 +2033,13 @@ footer #footer-content #bottom div a:visited a:active {
 #project-content #project-container ul li .project-btn {
   margin-top: 24px;
   background-color: var(--green);
-  color: var(--white);
+  color: var(--black);
   padding: 12px 24px;
   border-radius: 36px;
   align-self: flex-start;
 }
 #project-content #project-container ul li .project-btn:hover {
   background-color: var(--dark-green);
-}
-#project-content #project-container ul #project-1 .project-hero {
-  background-image: url("../img/projects/project-1.jpg");
-}
-#project-content #project-container ul #project-2 .project-hero {
-  background-image: url("../img/projects/project-2.jpg");
-}
-#project-content #project-container ul #project-3 .project-hero {
-  background-image: url("../img/projects/project-3.jpg");
-}
-#project-content #project-container ul #project-4 .project-hero {
-  background-image: url("../img/projects/project-4.jpg");
-}
-#project-content #project-container ul #project-5 .project-hero {
-  background-image: url("../img/projects/project-5.jpg");
-}
-#project-content #project-container ul #project-6 .project-hero {
-  background-image: url("../img/projects/project-6.jpg");
 }
 
 /* =============

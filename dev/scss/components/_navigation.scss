@@ -12,6 +12,8 @@ a{
 .active-page{
     a{
         color: var(--green) !important;
+        background-color: var(--charcoal);
+        border-radius: 12px;
     }
 }
 
@@ -66,7 +68,7 @@ a{
             a:link, a:visited{
                 font-weight: 550;
                 display: inline-block;
-                padding: 24px 0;
+                padding: 24px 24px;
                 color: var(--blue);
                 transition: 0.25s;
                 height: 100%;
@@ -91,7 +93,7 @@ a{
 
             #contact-btn{
                 background-color: var(--green);
-                color: var(--white);
+                color: var(--black);
                 border: none;
                 border-radius: 48px;
                 padding: 24px;

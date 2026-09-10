@@ -54,28 +54,6 @@
                     }
                 }
 
-                // .details{
-                //     display: flex;
-                //     align-items: center;
-
-                //     .green-pill{
-                //         background-color: var(--light-green);
-                //         border: 1px solid var(--green);
-                //         color: var(--dark-green);
-                //         padding: 8px 16px;
-                //         border-radius: 100px;
-                //         text-align: center;
-                //         display: inline-block;
-                //         font-size: helpers.rem-calc(10);
-                //         margin-right: 12px;
-                //     }
-
-                //     .year{
-                //         color: var(--dark-grey);
-                //         font-size: helpers.rem-calc(12);
-                //     }
-                // }
-
                 h2{
                     font-size: helpers.rem-calc(22);
                     margin: 16px 0;
@@ -101,7 +79,7 @@
                 .project-btn{
                     margin-top: 24px;
                     background-color: var(--green);
-                    color: var(--white);
+                    color: var(--black);
                     padding: 12px 24px;
                     border-radius: 36px;
                     align-self: flex-start;
@@ -112,41 +90,41 @@
                 }
             }
 
-            #project-1{
-                .project-hero{
-                    background-image: url("../img/projects/project-1.jpg");
-                }
-            }
+            // #project-1{
+            //     .project-hero{
+            //         background-image: url("../img/projects/project-1.jpg");
+            //     }
+            // }
 
-            #project-2{
-                .project-hero{
-                    background-image: url("../img/projects/project-2.jpg");
-                }
-            }
+            // #project-2{
+            //     .project-hero{
+            //         background-image: url("../img/projects/project-2.jpg");
+            //     }
+            // }
 
-            #project-3{
-                .project-hero{
-                    background-image: url("../img/projects/project-3.jpg");
-                }
-            }
+            // #project-3{
+            //     .project-hero{
+            //         background-image: url("../img/projects/project-3.jpg");
+            //     }
+            // }
 
-            #project-4{
-                .project-hero{
-                    background-image: url("../img/projects/project-4.jpg");
-                }
-            }
+            // #project-4{
+            //     .project-hero{
+            //         background-image: url("../img/projects/project-4.jpg");
+            //     }
+            // }
 
-            #project-5{
-                .project-hero{
-                    background-image: url("../img/projects/project-5.jpg");
-                }
-            }
+            // #project-5{
+            //     .project-hero{
+            //         background-image: url("../img/projects/project-5.jpg");
+            //     }
+            // }
 
-            #project-6{
-                .project-hero{
-                    background-image: url("../img/projects/project-6.jpg");
-                }
-            }
+            // #project-6{
+            //     .project-hero{
+            //         background-image: url("../img/projects/project-6.jpg");
+            //     }
+            // }
         }
     }
 }
