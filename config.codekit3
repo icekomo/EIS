@@ -550,12 +550,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/services\/Acrylic.jpg" : {
+    "\/deploy\/img\/services\/acrylic.jpg" : {
       "ft" : 16384,
       "iS" : 360216,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/services\/Acrylic.jpg",
+      "oAP" : "\/deploy\/img\/services\/acrylic.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
